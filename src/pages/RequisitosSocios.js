@@ -28,7 +28,8 @@ const RequisitosSocios = () => {
         }}
           onMouseEnter={(e) => e.target.style.backgroundColor = '#255a7b'}
           onMouseLeave={(e) => e.target.style.backgroundColor = '#3C2713'}
-          target="_blank">
+          target="_blank"
+          className="btn btn-secondary">
           Asociate ahora a través de AccessFan
         </a>
       </div>
