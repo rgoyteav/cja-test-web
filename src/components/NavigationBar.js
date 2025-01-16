@@ -19,7 +19,7 @@ const NavigationBar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark" style={{ backgroundColor: '#0c3553' }}>
       <div className="container">
-        <Link className="navbar-brand d-flex align-items-center" to="/" style={{ gap: '10px' }}>
+        <Link className="d-flex align-items-center" to="/" style={{ gap: '10px', color: 'white', textDecoration: 'None' }}>
           <img
             src={logo}
             alt="Escudo del Centro Juventud Antoniana"
