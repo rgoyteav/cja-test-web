@@ -59,8 +59,8 @@ const AbonosPage = () => {
 
         <div className="text-center mt-5">
           <a 
-            href="/docs/CJA - Abono para Socios 2025.pdf" 
-            download="CJA-Abono-para-Socios-2025.pdf" 
+            href="/docs/CJA - Abono para socios 2025.pdf" 
+            download="CJA - Abono para socios 2025.pdf" 
             className="btn btn-secondary"
             style={{ padding: '15px 30px', fontSize: '18px', backgroundColor: '#3C2713', marginBottom: '10px' }}
           >
