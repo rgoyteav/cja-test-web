@@ -1,0 +1,29 @@
+.portada-img {
+    transition: transform 0.3s ease; /* Suaviza la transición */
+  }
+  
+  .portada-img:hover {
+    transform: scale(1.1); /* Aumenta el tamaño de la imagen al 110% */
+  }
+  
+  .portadas {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .portada {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .portada-text {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+  }
+  

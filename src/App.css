@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* src/App.css */
+
+/* Aplica la fuente globalmente */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;  /* Puedes cambiar el color de fondo */
+  color: #333;  /* Texto más oscuro para mejor contraste */
+}
+
+/* Estilos para el carrusel */
+.carousel-item img {
+  width: 80%;  /* Ajusta el tamaño de la imagen */
+  max-height: 300px;  /* Limita la altura */
+  object-fit: cover;  /* Mantiene el aspecto correcto */
+  margin: 0 auto;  /* Centra la imagen */
+}
+
+.carousel-caption {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: #0c3553; /* El color del texto puede ser ajustado según tus colores */
+}
+
+/* Ajusta los títulos para que tengan una tipografía más moderna */
+h1, h2, h3, h4 {
+  font-weight: 600;  /* Un poco más de peso para un estilo más elegante */
+  letter-spacing: 1px;  /* Espaciado entre letras para darle un toque moderno */
+}
+
+/* Ajusta los párrafos */
+p {
+  font-weight: 400;  /* Texto más liviano */
+  line-height: 1.6;  /* Mejor legibilidad */
+}
+
+/* Estilos para las imágenes dentro del Carousel */
+.fotos img {
+  height: 100px; /* Ajusta el alto a lo que desees */
+  object-fit: cover; /* Asegura que la imagen cubra el espacio sin distorsionarse */
+  width: 100%; /* Asegura que las imágenes ocupen todo el ancho disponible */
+}
+
+.navbar-brand img {
+  transition: transform 0.2s ease-in-out; /* Agrega un efecto suave al pasar el mouse */
+}
+
+.navbar-brand img:hover {
+  transform: scale(1.1); /* Ampliar ligeramente el logo al pasar el mouse */
+}
+

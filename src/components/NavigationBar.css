@@ -1,0 +1,69 @@
+/* Aplicamos una transición en max-height y opacity */
+@media (max-width: 992px) {
+    .collapse {
+      transition: max-height 2s ease, opacity 0.5s ease;
+      max-height: 0; /* Cuando está colapsada */
+      opacity: 0;    /* Invisible cuando colapsada */
+      overflow: hidden;
+    }
+  
+    .collapse.show {
+      max-height: 500px; /* Ajusta esto a un valor mayor si es necesario */
+      opacity: 1;        /* Totalmente visible cuando expandida */
+    }
+  }
+  
+  /* Estilo para el submenú */
+  .sub-menu {
+    display: none;
+    background-color: #0C3553;
+    position: absolute;
+    list-style: none;
+    margin-top: 5px; /* Reducimos el espacio entre el Link "Socios" y el submenú */
+    padding: 0;
+    border-radius: 5px;
+    z-index: 1050; /* Asegura que esté por encima de otros elementos */
+  }
+  
+  .nav-item:hover .sub-menu {
+    display: block;
+  }
+  
+  /* Estilo para los elementos del submenú */
+  .sub-menu li {
+    margin: 0;  /* Eliminamos el margen entre los ítems del submenú */
+    padding: 10px;
+    color: white; /* Color del texto en el submenú */
+    text-align: left;
+  }
+  
+  /* Estilo para los enlaces en la navbar */
+  .navbar-nav .nav-link {
+    position: relative; /* Necesario para la pseudo-clase */
+  }
+  
+  /* Estilo cuando se hace hover sobre los enlaces */
+  .navbar-nav .nav-link:hover {
+    color: white; /* Cambia el color del texto si lo deseas */
+  }
+  
+  /* Pseudo-elemento para crear la línea de subrayado */
+  .navbar-nav .nav-link::after {
+    content: ""; /* Necesario para generar un elemento pseudo */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px; /* Ajusta el grosor de la línea */
+    background-color: white; /* Color de la subrayado */
+    transform: scaleX(0); /* Inicialmente no se ve */
+    transform-origin: bottom right; /* Empieza desde la esquina derecha */
+    transition: transform 0.3s ease-out; /* Animación para el subrayado */
+  }
+  
+  /* Aparece el subrayado cuando el enlace tiene hover */
+  .navbar-nav .nav-link:hover::after {
+    transform: scaleX(1); /* Expande la línea de izquierda a derecha */
+    transform-origin: bottom left; /* Cambia la dirección del subrayado */
+  }
+  
