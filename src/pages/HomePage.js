@@ -89,7 +89,6 @@ const HomePage = () => {
                     onMouseLeave={(e) => e.target.style.backgroundColor = '#0c3553'}>
                     Programa de Beneficios
                 </a>
-                <li><Link className="nav-link" to="/beneficios">Comercios adheridos</Link></li>
             </section>
 
              <section className="redes-sociales-preview" style={{ textAlign: 'center', padding: '40px 0', backgroundColor: '#F0F5F5' }}>

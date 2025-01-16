@@ -127,7 +127,7 @@ const BeneficiosPage = () => {
                 </div>
             </section>
 
-            <section className="como-acceder" style={{ padding: '40px 0', marginBottom: '80px', backgroundColor: '#0c3553', color: '#FFF', textAlign: 'center' }}>
+            <section className="como-acceder" style={{ padding: '40px 0', marginBottom: '80px', color: '#0c3553', textAlign: 'center' }}>
                 <h3 style={{ textAlign: 'center', marginBottom: '20px' }}>¿Cómo acceder a los beneficios?</h3>
                 <p style={{ fontSize: '18px', marginBottom: '20px' }}>
                     Para acceder a todos estos beneficios, solo tenés que ser socio del Centro Juventud Antoniana. Si aún no lo sos, ¡hacelo ahora!

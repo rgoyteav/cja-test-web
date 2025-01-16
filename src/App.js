@@ -15,7 +15,6 @@ import RedesSocialesPage from './pages/RedesSocialesPage';
 import BeneficiosPage from './pages/BeneficiosPage';
 import RequisitosSocios from './pages/RequisitosSocios.js';
 import TiposCuotas from './pages/TiposCuotasPage.js';
-import BannerSlider from './components/BannerSlider.js';
 import Referidos from './pages/ReferidosPage.js'
 import Abonos from './pages/AbonosPage.js'
 
