@@ -79,7 +79,7 @@ const HomePage = () => {
                 <h2 style={{ marginBottom: '20px', fontSize: '30px' }}>¡No te lo pierdas!</h2>
                 <p style={{ fontSize: '20px', marginBottom: '20px' }}>
                     Conocé los comercios adheridos a nuestro programa de beneficios para socios y aprovechá promociones exclusivas.
-                    <br />¡Tu oportunidad de ser parte del club más grande está aquí!
+                    <br />¡Tu oportunidad de ser parte del club más grande está acá!
                 </p>
                 <a href="/beneficios" style={{
                     backgroundColor: '#0c3553', color: '#FFF', padding: '15px 30px', fontSize: '18px',
@@ -129,6 +129,17 @@ const HomePage = () => {
                         data-height="500"
                         href="https://twitter.com/CJAOficial?ref_src=twsrc%5Etfw"></a>
                     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+                    <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@cja.oficial" 
+                                data-unique-id="cja.oficial" data-embed-from="embed_page" 
+                                data-embed-type="creator"
+                                style={{maxWidth: '100%', height:'100%'}}> 
+                                <section> <a target="_blank" 
+                                             href="https://www.tiktok.com/@cja.oficial?refer=creator_embed"
+                                             width="100%">@cja.oficial</a> 
+                                </section> 
+                    </blockquote> 
+                    <script async src="https://www.tiktok.com/embed.js"></script>
                 </div>
             </section>
 
@@ -149,7 +160,6 @@ const HomePage = () => {
             </section>
 
             <section className="contact" style={{ padding: '40px 10px', backgroundColor: '#F0F5F5' }}>
-                {/* Aquí agregamos el Formulario de Contacto */}
                 <ContactForm />
             </section>
         </div>

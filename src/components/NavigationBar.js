@@ -57,15 +57,15 @@ const NavigationBar = () => {
                 <li><a className="nav-link"  href="https://juventudantoniana.accessfan.ar" target="_blank" rel="noopener noreferrer" onClick={handleLinkClick}>Asociate con AccessFan</a></li>
                 <li><Link className="nav-link" to="/tipos-cuotas" onClick={handleLinkClick}>Tipos y valores de cuotas sociales</Link></li>
                 <li><Link className="nav-link" to="/programa-referidos" onClick={handleLinkClick}>Asociá a un amigo y ganá</Link></li>
-                <li><Link className="nav-link" to="/abonos" onClick={handleLinkClick}>Abonos para socios y no socios</Link></li>
+                <li><Link className="nav-link" to="/abonos" onClick={handleLinkClick}>Abonos para socios y no socios (Muy pronto)</Link></li>
               </ul>
             </li>
             <li className="nav-item">
               <Link disabled className="nav-link" to="/polideportivo" onClick={handleLinkClick}>Polideportivo (En progreso)</Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link className="nav-link" to="/tienda" onClick={handleLinkClick}>Tienda (En progreso)</Link>
-            </li>
+            </li> */}
             <li className="nav-item">
               <a
                 className="btn btn-secondary me-2 mb-lg-0 mb-2"

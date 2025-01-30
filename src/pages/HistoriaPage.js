@@ -3,106 +3,114 @@ import React from 'react';
 const HistoriaPage = () => {
   return (
     <div className="historia-page">
-      <h1>Historia del Centro Juventud Antoniana</h1>
-      <p>
-        El Centro Juventud Antoniana (CJA) fue fundado el 12 de enero de 1916 en Salta, Argentina, por los Hermanos
-        Franciscanos, con el fin de ofrecer un lugar seguro y enriquecedor para la juventud local. Este club, que nació
-        como un espacio de recreación y apoyo social, se ha transformado a lo largo de los años en un símbolo de la
-        ciudad, contribuyendo al bienestar de sus habitantes mediante el deporte, la cultura y la solidaridad.
-      </p>
-      
-      <h2>Los Primeros Años (1916 - 1930)</h2>
-      <p>
-        Durante los primeros años de existencia, Juventud Antoniana se dedicó a formar una comunidad en torno a valores
-        fundamentales como el trabajo en equipo, la humildad y la ayuda mutua. Además de los partidos de fútbol y
-        actividades recreativas, el club organizó importantes eventos sociales que reunieron a familias de diferentes
-        barrios, creando un lazo fuerte con la comunidad. En este período, el club no solo se consolidó como una
-        institución deportiva, sino también como un pilar en la integración social.
-      </p>
-      <p>
-        La primera sede del club fue modesta, pero pronto se construyeron instalaciones más amplias, lo que permitió
-        ampliar la cantidad de socios y actividades ofrecidas. Durante estos años, el club no solo organizó torneos
-        deportivos, sino que también fue sede de múltiples actividades culturales, como teatro, danza y música.
-      </p>
+      <div class="container">
+        <section>
+          <h1>Fundación</h1>
+          <p>En noviembre de 1915, el Obispo de nuestra provincia, José Gregorio Calixto Romero, autorizó al Padre Enrique Biagini a fundar un centro destinado a
+            “alejar a los jóvenes de ambos sexos del contagio de los malos hábitos y encauzarlos en el camino de las buenas costumbres”.</p>
+          <p>El 6 de diciembre de 1915, en Corrientes, se redactó en latín el acta de “erección canónica” de Juventud Antoniana, firmada por el Padre Lorenzo Mondanelli.
+            Esta llegó a Salta, y la primera reunión tuvo lugar el 12 de enero de 1916, fecha establecida como la fundación oficial del club.</p>
+        </section>
 
-      <h2>Década de 1940: Consolidación y Expansión</h2>
-      <p>
-        La década de 1940 marcó un punto de inflexión en la historia del club. En este período, el CJA comenzó a ganar
-        reconocimiento más allá de las fronteras locales. Se reorganizó y modernizó la estructura del club, lo que
-        permitió un aumento significativo de su base de socios. Además, comenzaron a celebrarse competiciones interprovinciales
-        que posicionaron al club como un referente en el deporte local.
-      </p>
-      <p>
-        La época de los 40 también vio la creación de nuevos equipos y disciplinas, con un enfoque especial en el fútbol.
-        Fue en esta década cuando el club alcanzó sus primeros éxitos importantes, logrando victorias en torneos
-        regionales. Esto abrió la puerta para que Juventud Antoniana tuviera presencia en el fútbol profesional argentino.
-      </p>
+        <section>
+          <h2>Historia Deportiva</h2>
+          <p>En 1921 se fundó la Liga Salteña de Fútbol, siendo Juventud Antoniana uno de los clubes fundadores. Su primer título local llegó en 1928.
+            Hasta 1967 el interior no tenía lugar en los torneos de AFA por lo que el Santo se convirtió en el equipo más popular de la
+            provincia en base a su prestigio y campeonatos ganados en el ámbito local.
+          </p>
+          <p>
+            En 1968 debuta en el torneo Regional, volviendo a ser el representante salteño en este torneo en los años siguientes, hasta que en 1971 finalmente se le
+            da el título y primera clasificación salteña a un torneo de primera división, para conseguir este primer logro salteño a nivel nacional, el Santo venció
+            a Gimnasia de Jujuy por 4 a 1, con récord de recaudación nacional, y cerrando la clasificación en Catamarca, al vencer a Sarmiento, con una caravana nunca
+            vista en la historia del futbol salteño. El Nacional 71 fue una revolución para Salta, el partido más recordado (más allá del debut ante Newells en Salta),
+            fue el partido en el Monumental ante el poderoso River, con gol de chilena de José Luñiz, el Santo se puso en ventaja, pero el local le dio vuelta con un
+            polémico arbitraje, ganando el millonario por 2 a 1.
+          </p>
+          <p>Otros partidos muy recordados en los Nacionales son el empate ante Racing en Salta en el 75, en el mismo Nacional, goleada a favor ante Gimnasia de La Plata
+            por 6 a 1. La máxima goleada ante Santa Rosa de la Pampa por 7 a 1 en el 83, derrota en el debut también en el Nacional 83 ante San Lorenzo en cancha de Velez,
+            con una multitud que viajo desde Salta.</p>
+          <p>
+            Una nueva restructuración marcaba un nuevo objetivo, llegar al flamante Nacional B de AFA, para ello se crea el Torneo del Interior, torneo en que Juventud
+            participa en forma consecutiva desde 1986 hasta 1995, sin conseguir el ascenso, pero jugando todos los torneos de estas características, hasta su reemplazo
+            por el Argentino A, en el debut de este nuevo torneo, en la temporada 1995/96, el Santo realiza una gran campaña, llegando a la final ante Cipolletti.
+            En la ida en Salta fue empate en cero, lo que parecía que el sueño del ascenso iba a volver a quedar trunco, pero once héroes consiguieron el triunfo en el
+            sur, el gol de Espeche retumbo en toda la provincia, y luego de tantos años de lucha, se pudo llegar por fin al Nacional B, fueron 10 años de lucha para
+            llegar a este objetivo.
+          </p>
+          <p>
+            Solo una temporada en Nacional B, un golpe durísimo, el descenso, pero nuevamente el ascenso, un equipo de categoría para volver a gritar campeón del Argentino A
+            en el 98 y volver a la máxima categoría de ascenso. En este regreso el Santo hizo su mejor campeonato en un torneo de AFA, un equipo que dejaba todo en cada
+            partido, se llegó a los play off, dejando en el camino a Gimnasia y Tiro, San Martin de Tucumán y la semifinal ante All Boys, con el recordado 5 a 3 en
+            Floresta, con un cierre de oro, con el gol de mitad de cancha de Miguel Ángel “Pichi” Velarde, en la final ante el Chacarita del sindicalista Barrionuevo no
+            se pudo, empate en Salta y derrota en San Martín.
+          </p>
+          <p>
+            Hasta el 2006 se mantuvo la categoría, hasta que llego el descenso, varios años en el Argentino/Federal A, hasta un nuevo descenso en el 2019 para
+            jugar los torneos regionales hasta la fecha. Lo más destacado antes de este último descenso, fue un partido que mantuvo en vilo a la provincia, el 3 de mayo
+            del 2014, por esas cosas del destino, tuvieron que jugar un desempate por no descender los máximo rivales de la provincia. Luego del empate sin goles,
+            llegaron los penales, Mariano Maino (ex arquero del clásico rival) ataja un penal, Matías López liquida la serie para enviar al descenso a Central Norte.
+          </p>
+        </section>
 
-      <h2>1970: El Salto a lo Nacional</h2>
-      <p>
-        En 1971, Juventud Antoniana alcanzó un hito importante al participar por primera vez en el Torneo Nacional de
-        Fútbol. Esto permitió al club no solo competir con los mejores equipos del país, sino también ganar notoriedad
-        a nivel nacional. Durante esta década, el club también sufrió una transformación profunda en cuanto a su infraestructura,
-        con la construcción de un nuevo estadio y la modernización de sus instalaciones.
-      </p>
-      <p>
-        Además de su crecimiento deportivo, el CJA en la década de 1970 se convirtió en un centro de referencia para los
-        jóvenes salteños, que veían en el club un modelo a seguir no solo en términos deportivos, sino también en valores
-        de liderazgo y trabajo en equipo.
-      </p>
+        <section>
+          <h2>Logros y Récords</h2>
+          <ul>
+            <li>
+              Campeón regional 1971 (consiguiendo la clasificación al Torneo Nacional, siendo el primer salteño en llegar a primera división, en ese mismo torneo
+              José Artemio Luñiz, delantero antoniano, consiguió ser el máximo artillero del certamen, siendo el primer goleador en primera división jugando para un
+              equipo indirectamente afiliado a AFA)
+            </li>
+            <li>Clasificación a los Nacionales 1971, 1973, 1975, 1978, 1983 y 1985</li>
+            <li>Récord nacional de 44 partidos invicto (1988/89).</li>
+            <li>2 veces campeón del Torneo Argentino A (1995/96 y 1997/98).</li>
+          </ul>
+        </section>
 
-      <h2>Las Décadas de 1980 y 1990: Éxitos y Desafíos</h2>
-      <p>
-        Los años 80 y 90 fueron años de grandes éxitos deportivos para el CJA, con equipos de fútbol que llegaron a
-        instancias decisivas en torneos nacionales. Sin embargo, estas décadas también estuvieron marcadas por desafíos
-        económicos que amenazaron con desestabilizar al club. A pesar de estos obstáculos, el CJA logró superar las
-        dificultades gracias a la solidaridad de sus socios, quienes se unieron para mantener el club a flote.
-      </p>
-      <p>
-        Durante estos años, el club también amplió su oferta deportiva, abriendo espacio para otras disciplinas como el
-        vóley, el balonmano y el atletismo. Estos deportes, junto con el fútbol, formaron una parte fundamental de la
-        identidad del CJA y permitieron que muchos jóvenes salteños se desarrollaran en diferentes áreas.
-      </p>
+        <section>
+          <h2>Datos Destacados</h2>
+          <p><strong>Apodo del Club:</strong> Santo (anteriormente "Franciscano").</p>
+          <p><strong>Clásicos:</strong>
+            <ul>
+              <li>Central Norte (Salta) - Principal rival.</li>
+              <li>Gimnasia y Esgrima (Jujuy) - Regional.</li>
+              <li>Gimnasia y Tiro (Salta) - Primer clásico.</li>
+            </ul>
+          </p>
+          <p><strong>Estadio:</strong> Fray Honorato Pistoia.</p>
+          <p><strong>Máximos goleadores:</strong> Rodolfo Garnica y Luis Rivero.</p>
+          <p><strong>Jugadores con más partidos:</strong> Luis Flores y Nelson Marin.</p>
+          <p><strong>Máximo goleador en torneos de AFA y Consejo Federal:</strong> Miguel Ángel Velarde.</p>
+          <p><strong>Jugador con más partidos en AFA y Consejo Federal:</strong> José Antonio Valdiviezo.</p>
+          <p><strong>Jugadores destacados:</strong> Arturo Wierna, Hugo Castellanos, Silvano Castellanos, Luis Pacheco, José Pacheco, Celencio Valle, José Lazarte,
+            Juan Manuel Juárez, Arturo Botelli, Miguel Soto, Mariano Echazu, Dimarco, Oscar Miranda, Eduardo Kulesza, Juan Carlos Berruezo, Héctor Ruiz,
+            Pablo de las Mercedes Cárdenas, Néstor Colque, Ricardo Aniceto Roldan, Juan Carlos Rico, Juan de Dios Laguna, Abelardo Iñiguez, Néstor Gómez,
+            José Luñiz, José Ferreyra, Osvaldo Mazo, Luis Rivero, Pedro Albornoz, Marcelo Jiménez, Roberto Medina, Mario Bustos, Néstor Choque, Rodolfo Garnica,
+            Luis Flores, Omar Américo Vargas, José Luis Córdoba, Osvaldo Maggio, Sergio Balmaceda, Marcelo Cortes, Roberto Walter Mamani, Gustavo Vera, Carlos Cil,
+            Marcelo Cil, Raúl Olarte, Pablo Saldaño, Adrián Cuadrado, José Antonio Valdiviezo, Nelson Marín, Héctor Aguirre, José Pereyra, Martin Ligori, Raúl Iturrieta,
+            Esteban Espeche, Juan Carlos Pruyas, Miguel Ángel Velarde, Carlos Rosas, Cristian Contreras, Alejandro Casal, Jorge Peña, Nicolas Jiménez, Alberto Boggio,
+            Claudio Mir, Sergio Albornoz, Gustavo Lucco, Oscar Gómez, Ángel Bernuncio, Mauro Laspada, Cristian Alfaro, Daniel Ramasco, Pablo Rodríguez, Ricardo Gómez,
+            David Cerutti, Luis Velázquez, Sergio Liendro, Víctor Vargas, Juan Pablo Cárdenas, Marcos Navarro, Carlos Medina, Matías Rinaudo, José Luis Campi,
+            Raúl Gorostegui, Oscar Domínguez, Hernán Hechalar, Gustavo Ortiz, Gustavo Ibañez, Gustavo Balvorin, Nicolas Perez, Martin Esparza.
+          </p>
+        </section>
 
-      <h2>Los Nuevos Tiempos (2000 - presente)</h2>
-      <p>
-        En la década del 2000, el CJA experimentó un renacer. El club se modernizó y se adaptó a las nuevas realidades
-        tecnológicas y sociales, ampliando su presencia a través de las redes sociales y plataformas digitales. Con una
-        visión de futuro, el club no solo se enfocó en el deporte, sino también en su impacto social y cultural.
-      </p>
-      <p>
-        Además, en estos años el CJA comenzó a recibir un número mayor de socios, y la dirigencia apostó a un proceso
-        de revalorización de la infraestructura del club, con la mejora de los campos deportivos y la incorporación de
-        nuevas tecnologías en la formación de los deportistas. Además, se iniciaron proyectos para la renovación del
-        estadio, que hoy es un referente para la ciudad de Salta.
-      </p>
-      
-      <h2>El CJA y la Comunidad Salteña</h2>
-      <p>
-        Más allá de los logros deportivos, el Centro Juventud Antoniana ha jugado un papel fundamental en la
-        transformación social de Salta. El club ha sido un lugar de inclusión, ofreciendo programas para jóvenes de
-        todas las edades y promoviendo valores como la solidaridad, la fraternidad y la cooperación. Con su lema
-        “Unidos por la camiseta”, el CJA se ha erigido como un símbolo de unidad y esperanza para miles de familias.
-      </p>
-      <p>
-        Hoy en día, el CJA sigue siendo una institución viva, que trasciende los límites del deporte para convertirse
-        en un faro de cultura y educación para la comunidad. Las generaciones que se han formado en sus filas son
-        testimonio de la importancia que tiene este club en la identidad salteña.
-      </p>
-
-      <h2>El Legado de Juventud Antoniana</h2>
-      <p>
-        El legado de Juventud Antoniana se mide no solo por sus victorias deportivas, sino también por la huella
-        indeleble que ha dejado en cada persona que formó parte de su historia. A través de sus más de 100 años de
-        existencia, el club ha sido un testigo y partícipe del crecimiento de Salta, y sigue siendo un punto de
-        referencia para todos los que buscan hacer una diferencia en la sociedad.
-      </p>
-      
-      <p>
-        El futuro del Centro Juventud Antoniana está lleno de promesas. Con un crecimiento sostenido y una identidad
-        más fuerte que nunca, el club seguirá siendo un lugar donde los jóvenes puedan formarse como individuos y como
-        parte de una comunidad unida por la pasión por el deporte y la cultura.
-      </p>
+        <section>
+          <h2>Dirigentes Destacados</h2>
+          <p><strong>Ingeniero Alfonso Peralta:</strong> Primer presidente (provisorio), y el dirigente con más años en el cargo de presidencial (18 años en
+            distintas etapas), además un reconocido ingeniero en la provincia de Salta. Impulsor de obras hidráulicas tendientes a la evolución y desarrollo de la
+            provincia, fundador (1934) y primer presidente de la Asociación de Ingenieros, Arquitectos y Agrimensores de Salta. Representante de la provincia de Salta
+            en la Comisión Bicameral en la década del 60 para la defensa de los derechos de la provincia de Salta en la cuestión de límites con Jujuy. El embalse del
+            Dique Campo Alegre lleva su nombre. (Nombre completo: Mariano José Francisco Alfonso Peralta).
+          </p>
+          <p><strong>Fray Honorato Pistoia:</strong> Llegó a Salta en 1954. En aquellas décadas, el Centro Juventud Antoniana, por estatuto, contaba con un padre directo,
+            asignado por la orden mayor de los franciscanos, durante muchos años fue Fray Honorato Pistoia, convirtiéndose con el tiempo en el guía espiritual más importante
+            de nuestra historia, no solamente por su función específica de guiar a los socios y dirigentes como lo marcaba el estatuto, sino por ser un hincha tan fanático
+            como aquel salteño que de toda su vida alienta desde los tablones. Socio fundando del Instituto Guemesiano de Salta, director del Instituto Padre Gabriel
+            Tommasini, docente, periodista, escribió varios libros (“La Iglesia en Salta en la época hispánica” incluido en “Estudio socio económico y cultural de Salta”
+            Centro de Investigaciones de la Universidad Nacional de Salta, Tomo III. "La Iglesia de Salta en la época hispánica". “Los Franciscanos en el Tucumán
+            1566 – 1810”. “Los Franciscanos en el Tucumán y en el Norte Argentino 1566-1973”. “El pensamiento politico de Güemes”. (Nombre real: Benedetto Pistoia)</p>
+        </section>
+      </div>
     </div>
   );
 };

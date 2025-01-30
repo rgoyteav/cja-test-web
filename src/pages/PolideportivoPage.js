@@ -6,12 +6,9 @@ const PolideportivoPage = () => {
     <div>
       <h5>Polideportivo</h5>
       <p>
-        El Centro Juventud Antoniana (CJA) cuenta con diversas disciplinas y buscaremos abrir aún más. En este espacio
+        El Centro Juventud Antoniana cuenta con diversas disciplinas y buscaremos abrir aún más. En este espacio
         podrás encontrar novedades, fotografías e información relacionada a cada una de las actividades que tenemos en
         nuestro club.
-      </p>
-      <p>
-        Pronto podrás disfrutar de todas estas características dentro del sitio web del club.
       </p>
     </div>
   );

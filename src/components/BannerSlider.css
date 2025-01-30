@@ -20,6 +20,7 @@ body {
     width: 23.958%;
     height: 110px;
     background: linear-gradient(-90deg, hsla(0, 0%, 96.9%, 0), #f7f7f7);
+    pointer-events: none;
   }
   
   .slider:after {
@@ -33,6 +34,7 @@ body {
       hsla(0, 0%, 96.9%, 0),
       hsla(0, 0%, 96.9%, 0.99) 99%
     );
+    pointer-events: none;
   }
   .slider .slide-track {
     display: flex;

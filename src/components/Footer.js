@@ -23,8 +23,8 @@ const Footer = () => {
 
       {/* Correo electrónico */}
       <p>
-        <a href="mailto:institucional@juventudantoniana.com" style={{ color: '#F0F5F5' }}>
-          institucional@juventudantoniana.com
+        <a href="mailto:institucional@juventudantoniana.com.ar" style={{ color: '#F0F5F5' }}>
+          institucional@juventudantoniana.com.ar
         </a>
       </p>
     </footer>

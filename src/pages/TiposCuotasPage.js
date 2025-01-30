@@ -54,7 +54,7 @@ const TiposCuotasPage = () => {
 
         <p>Valores correspondientes al período de Noviembre 2024 - Enero 2025. Si deseas más información, no dudes en ponerte en contacto con nosotros a través de nuestra página de contacto o visitando nuestra sede para obtener detalles adicionales.</p>
         
-        <p><strong>¡Únete al CJA y disfruta de todos los beneficios de ser parte de nuestra comunidad!</strong></p>
+        <p><strong>¡Unite al Santo y disfruta de todos los beneficios de ser parte de la comunidad antoniana!</strong></p>
       </div>
     </div>
   );

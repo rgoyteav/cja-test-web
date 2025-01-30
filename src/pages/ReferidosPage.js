@@ -6,8 +6,8 @@ const ReferidosPage = () => {
       <h1 className="text-center" style={{ color: '#0c3553' }}>Programa de Referidos 2025</h1>
       <div className="mt-4">
         <p>
-          El Programa de Referidos 2025 premia a los socios que inviten nuevos miembros al club. Este programa busca
-          fortalecer nuestra comunidad y fomentar la participación activa en las actividades del CJA.
+          El Programa de Referidos 2025 premia a los socios que inviten nuevos miembros al club. Este programa busca fidelizar los socios activos
+          y aumentar la masa societaria del Centro Juventud Antoniana.
         </p>
         <h3>¿Cómo participar?</h3>
         <p>Consulta todos los detalles descargando el documento oficial:</p>

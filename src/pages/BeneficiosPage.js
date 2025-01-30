@@ -1,5 +1,32 @@
 import React from 'react';
-import logo from '../assets/abril-frutos-secos.png';
+import logoNardini from '../assets/nardini-srl.jpeg';
+import logoPunaRentals from '../assets/puna-rentals.png';
+import logoHotelDelVino from '../assets/hotel-del-vino-large-2.png'
+import logoAbril from '../assets/abril-frutos-secos.png';
+import logoZeus from '../assets/zeus-peluqueria.jpeg';
+import logoEmele from '../assets/emele-sublimaciones.jpeg';
+import logoMz from '../assets/mz-construcciones.jpeg';
+import logoLasMascios from '../assets/las-mascios-boutique.jpeg';
+import logoSuperCasino from '../assets/super-casino.jpeg';
+import logoBaruTiendaSaludable from '../assets/baru-tienda-saludable.jpeg';
+import logoMapacheBar from '../assets/mapache-bar.jpeg';
+import logoBooguieRetroBar from '../assets/booguie-retro-bar.jpeg';
+import logoElMisterPlays from '../assets/el-mister-plays.jpeg';
+import logoSEBeautique from '../assets/se-beautique.jpeg';
+import logoMarianoTorresTaller from '../assets/mariano-torres-taller.jpeg';
+import logoSigsas from '../assets/sigsas.png';
+import logoMrMagoo from '../assets/mr-magoo.png';
+import logoTiendaLaFortuna from '../assets/tienda-la-fortuna.jpeg';
+import logoBarberiaCastillo from '../assets/barberia-castillo.jpeg';
+import logoFerreteriaGay from '../assets/ferreteria-gay.jpeg';
+import logoSandwicheriaChanchin from '../assets/sandwicheria-chanchin.jpeg';
+import logoSaltaLac from '../assets/saltalac.jpeg';
+import logoMymCelulares from '../assets/mym-celulares.png';
+import logoSuplementosNutricionales from '../assets/suplementos-nutricionales-salta.jpeg';
+import logoCristianCelulares from '../assets/cristian-celulares.jpeg';
+import logoMecanicaRicardoMartin from '../assets/ricardo-martin-mecanica-integral.png';
+import logoNegroCopa from '../assets/lo-del-negro-copa.png';
+import logoGuzmanRepuestos from '../assets/guzman-repuestos.jpeg'
 
 const BeneficiosPage = () => {
     return (
@@ -10,118 +37,404 @@ const BeneficiosPage = () => {
                     Al ser socio del Centro Juventud Antoniana, accedés a promociones exclusivas en una amplia variedad de comercios adheridos.
                     <br />¡Aprovechá todos los beneficios que te ofrecemos!
                 </p>
+                <p>Si tenés un comercio y querés formar parte del Programa de Beneficios del Centro Juventud Antoniana, 
+                    llená el <a href="/contacto" target='_blank' style={{ color: '#F0F5F5' }}>formulario de contacto</a> o envianos un 
+                    email a <a href="mailto:institucional@juventudantoniana.com.ar" style={{ color: '#F0F5F5' }}>institucional@juventudantoniana.com.ar</a>,
+                    y te contactaremos a la brevedad para contarte los beneficios que tenemos para tu vos y tu negocio.
+                </p>
             </section>
 
             <section className="comercios-adheridos" style={{ padding: '40px 0', backgroundColor: '#F0F5F5' }}>
                 <h3 style={{ textAlign: 'center', color: '#0c3553', marginBottom: '30px' }}>Comercios Adheridos</h3>
                 <div className="comercios-list" style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap', gap: '30px' }}>
-                    {/* Comercio 1 */}
+                    {/* Comercio 3 */}
                     <div className="comercio" style={{ width: '300px', padding: '20px', border: '1px solid #ccc', borderRadius: '10px', backgroundColor: '#FFF' }}>
                         <img
-                            src="https://scontent.fsla1-1.fna.fbcdn.net/v/t39.30808-6/412951552_783013200507379_8391729019907527277_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEU1rchob9t_FbEvDxEWrPZ7Ly6D-O2cc3svLoP47ZxzbI423RxG9jugjcLREJa0fE&_nc_ohc=tBv5u4-z8pkQ7kNvgGb6SDt&_nc_oc=AdhMLaeIHWTaI-2QiuSW6b5Din9bj61sEK9paogAwxMxTYn_0igNaoM8w46U2U6k9naqgBEjzHafvMQ2gZ9vt_k-&_nc_zt=23&_nc_ht=scontent.fsla1-1.fna&_nc_gid=AxDW2Hr-QhN9OlSckhrWgQ9&oh=00_AYDLEQxj46T5xVeZBSchYWw8ZYQQkkgKFdUTebD8vSchyg&oe=678B6C47"
-                            alt="JOVI"
+                            src={logoHotelDelVino}
+                            alt="Del Vino Hotel Boutique"
                             style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
                         />
-                        <h4 style={{ color: '#0c3553', marginTop: '15px' }}>RESTAURANT JOVI</h4>
+                        <h4 style={{ color: '#0c3553', marginTop: '15px' }}>DEL VINO HOTEL BOUTIQUE</h4>
                         <p style={{ color: '#333', fontSize: '16px' }}>
-                            🔵 Restaurante de comidas variadas
-                            <br />⚪ Exquisitos platos con la más alta calidad culinaria, en un ambiente acogedor y seguro.
-                            <br />🟤 ¡Aprovechá un 10% de descuento en todos los productos!
-                            <br />📍 Balcarce 601
-                            <br /> ☎️   4329438
+                            📍Ameghino 555
+                            <br />💰20% de descuento en alojamiento.
+                            <br />💰10% de descuento en vinería del hotel.
                         </p>
                     </div>
-
+                    {/* Comercio 3 */}
+                    <div className="comercio" style={{ width: '300px', padding: '20px', border: '1px solid #ccc', borderRadius: '10px', backgroundColor: '#FFF' }}>
+                        <img
+                            src={logoPunaRentals}
+                            alt="Puna Rentals"
+                            style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
+                        />
+                        <h4 style={{ color: '#0c3553', marginTop: '15px' }}>PUNA RENTALS</h4>
+                        <p style={{ color: '#333', fontSize: '16px' }}>
+                            📍Ameghino 555
+                            <br />💰15% de descuento en alquiler de automotores.
+                        </p>
+                    </div>
                     {/* Comercio 2 */}
                     <div className="comercio" style={{ width: '300px', padding: '20px', border: '1px solid #ccc', borderRadius: '10px', backgroundColor: '#FFF' }}>
                         <img
-                            src="https://scontent.fsla1-1.fna.fbcdn.net/v/t39.30808-1/427974431_706010318399124_267945852806914109_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=103&ccb=1-7&_nc_sid=1d2534&_nc_eui2=AeGnO4G2gcld-xeoRnifwIUSXrAOebGCrStesA55sYKtKxP3O8Zatrp4cARrVZ-Zx4w&_nc_ohc=618R7ZI9yCwQ7kNvgFpL74U&_nc_oc=AdjT34x4inwE___Q3gy3tPLPGsObs-pOvBI-osbUNBxnhr1tapVQAdgl7w3B_NuhNsJyZuHqazpPtPBPHx8g6GkS&_nc_zt=24&_nc_ht=scontent.fsla1-1.fna&_nc_gid=AVPX9K66THUarQlJNUq4mtr&oh=00_AYDcN2JDuH-CCI17HCdWp0hUJ3pl5XInIrA7pG2T7gXQGQ&oe=678B63E6"
-                            alt="NARDINI SRL"
+                            src={logoNardini}
+                            alt="Nardini SRL"
                             style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
                         />
                         <h4 style={{ color: '#0c3553', marginTop: '15px' }}>NARDINI SRL</h4>
                         <p style={{ color: '#333', fontSize: '16px' }}>
-                            🔵 Concesionario oficial de ACA. Estación de servicio 24hs.
-                            <br />⚪ Servicompras - Lavadero - Boxes
-                            <br />🟤 Un 15% de descuento en toda la tienda para socios de CJA. ¡No te lo pierdas!
-                            <br />📍Mitre 620 - Salta
+                            📍Mitre 620 - Salta
+                            <br />💰10% de descuento en lavadero.
+                            <br />💰5% de descuento en lubricantes o cambio de aceite.
+                            <br />💰5% de descuento en confitería.
+                            <br /> ✅Si te asocias al A.C.A, tenés un lavado de carrocería e interior gratis.
                         </p>
                     </div>
-
                     {/* Comercio 3 */}
                     <div className="comercio" style={{ width: '300px', padding: '20px', border: '1px solid #ccc', borderRadius: '10px', backgroundColor: '#FFF' }}>
                         <img
-                            src="https://scontent.fsla1-1.fna.fbcdn.net/v/t39.30808-1/305213684_515748907216882_425086654960683744_n.jpg?stp=c0.0.1268.1268a_dst-jpg_s480x480_tt6&_nc_cat=111&ccb=1-7&_nc_sid=2d3e12&_nc_eui2=AeHwbf02ytC1oqItyiUgr3tHMRyCtoUejfIxHIK2hR6N8sFi7JMugJFjj_uMwhRLadE&_nc_ohc=BUHTYjUCcpUQ7kNvgFZUNOI&_nc_oc=AdhtdijEMgRA_VY6UjRxyyzsnXgncYXvXKnMEzxMQe5vOMOjmB7St0aFl814Nzg4OReyvv8UnUsZARXC9_YbfFFe&_nc_zt=24&_nc_ht=scontent.fsla1-1.fna&_nc_gid=ACHYxTdsjUi2aj4h2ZGyoyG&oh=00_AYDJc3E2LFNoM3yPiHtaK6_JZsB6zd1LTFE2VWM8G6khPg&oe=678B57B0"
-                            alt="Del Vino Hotel Boutique"
+                            src={logoNardini}
+                            alt="Hostería Anillaco"
                             style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
                         />
-                        <h4 style={{ color: '#0c3553', marginTop: '15px' }}>DEL VINO BOUTIQUE HOTEL</h4>
+                        <h4 style={{ color: '#0c3553', marginTop: '15px' }}>HOSTERÍA ANILLACO</h4>
                         <p style={{ color: '#333', fontSize: '16px' }}>
-                            Beneficio exclusivo: hasta un 20% de descuento en productos seleccionados para socios.
+                            📍Av de los terebintos s/N esquina Coronel Barros - Anillaco, La Rioja
+                            <br />💰15% de descuento en Hostería.
+                            <br />💰20% de descuento en restaurante.
                         </p>
                     </div>
-
+                    {/* Comercio 1 */}
+                    <div className="comercio" style={{ width: '300px', padding: '20px', border: '1px solid #ccc', borderRadius: '10px', backgroundColor: '#FFF' }}>
+                        <img
+                            src={logoZeus}
+                            alt="Zeus Peluquería"
+                            style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
+                        />
+                        <h4 style={{ color: '#0c3553', marginTop: '15px' }}>ZEUS PELUQUERÍA</h4>
+                        <p style={{ color: '#333', fontSize: '16px' }}>
+                            📍Avenida del bicentenario 889
+                            <br />💰20% de descuento en efectivo o transferencia
+                        </p>
+                    </div>
                     {/* Comercio 4 */}
                     <div className="comercio" style={{ width: '300px', padding: '20px', border: '1px solid #ccc', borderRadius: '10px', backgroundColor: '#FFF' }}>
                         <img
-                            src={logo}
+                            src={logoAbril}
                             alt="Abril Frutos Secos"
                             style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
                         />
                         <h4 style={{ color: '#0c3553', marginTop: '15px' }}>ABRIL FRUTOS SECOS</h4>
                         <p style={{ color: '#333', fontSize: '16px' }}>
-                            🔵 15% de descuento en frutos secos
-                            <br /> ⚪ 10% productos de dietética en general como cereales, desecados, semillas, legumbres, repostería.
-                            <br /> 📍 Córdoba 643
-                            <br /> 💰 Efectivo o transferencia
-                        </p>
-                    </div>
-                    {/* Comercio 5 */}
-                    <div className="comercio" style={{ width: '300px', padding: '20px', border: '1px solid #ccc', borderRadius: '10px', backgroundColor: '#FFF' }}>
-                        <img
-                            src="https://scontent.fsla1-1.fna.fbcdn.net/v/t39.30808-1/305213684_515748907216882_425086654960683744_n.jpg?stp=c0.0.1268.1268a_dst-jpg_s480x480_tt6&_nc_cat=111&ccb=1-7&_nc_sid=2d3e12&_nc_eui2=AeHwbf02ytC1oqItyiUgr3tHMRyCtoUejfIxHIK2hR6N8sFi7JMugJFjj_uMwhRLadE&_nc_ohc=BUHTYjUCcpUQ7kNvgFZUNOI&_nc_oc=AdhtdijEMgRA_VY6UjRxyyzsnXgncYXvXKnMEzxMQe5vOMOjmB7St0aFl814Nzg4OReyvv8UnUsZARXC9_YbfFFe&_nc_zt=24&_nc_ht=scontent.fsla1-1.fna&_nc_gid=ACHYxTdsjUi2aj4h2ZGyoyG&oh=00_AYDJc3E2LFNoM3yPiHtaK6_JZsB6zd1LTFE2VWM8G6khPg&oe=678B57B0"
-                            alt="Del Vino Hotel Boutique"
-                            style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
-                        />
-                        <h4 style={{ color: '#0c3553', marginTop: '15px' }}>DEL VINO BOUTIQUE HOTEL</h4>
-                        <p style={{ color: '#333', fontSize: '16px' }}>
-                            Beneficio exclusivo: hasta un 20% de descuento en productos seleccionados para socios.
+                            📍Córdoba 643
+                            <br /> 💵10% productos de dietética en general como cereales, desecados, semillas, legumbres, repostería.
+                            <br /> 💲15% de descuento en frutos secos
+                            <br /> 💰Efectivo o transferencia
                         </p>
                     </div>
                     {/* Comercio 6 */}
                     <div className="comercio" style={{ width: '300px', padding: '20px', border: '1px solid #ccc', borderRadius: '10px', backgroundColor: '#FFF' }}>
                         <img
-                            src="https://scontent.fsla1-1.fna.fbcdn.net/v/t39.30808-1/305213684_515748907216882_425086654960683744_n.jpg?stp=c0.0.1268.1268a_dst-jpg_s480x480_tt6&_nc_cat=111&ccb=1-7&_nc_sid=2d3e12&_nc_eui2=AeHwbf02ytC1oqItyiUgr3tHMRyCtoUejfIxHIK2hR6N8sFi7JMugJFjj_uMwhRLadE&_nc_ohc=BUHTYjUCcpUQ7kNvgFZUNOI&_nc_oc=AdhtdijEMgRA_VY6UjRxyyzsnXgncYXvXKnMEzxMQe5vOMOjmB7St0aFl814Nzg4OReyvv8UnUsZARXC9_YbfFFe&_nc_zt=24&_nc_ht=scontent.fsla1-1.fna&_nc_gid=ACHYxTdsjUi2aj4h2ZGyoyG&oh=00_AYDJc3E2LFNoM3yPiHtaK6_JZsB6zd1LTFE2VWM8G6khPg&oe=678B57B0"
-                            alt="Del Vino Hotel Boutique"
+                            src={logoEmele}
+                            alt="Emele Sublimacion & Gráfica"
                             style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
                         />
-                        <h4 style={{ color: '#0c3553', marginTop: '15px' }}>DEL VINO BOUTIQUE HOTEL</h4>
+                        <h4 style={{ color: '#0c3553', marginTop: '15px' }}>EMELE - SUBLIMACIÓN & GRÁFICA</h4>
                         <p style={{ color: '#333', fontSize: '16px' }}>
-                            Beneficio exclusivo: hasta un 20% de descuento en productos seleccionados para socios.
+                            📍Córdoba 643
+                            <br /> 💰15 % de descuento en efectivo o transferencia
                         </p>
                     </div>
                     {/* Comercio 7 */}
                     <div className="comercio" style={{ width: '300px', padding: '20px', border: '1px solid #ccc', borderRadius: '10px', backgroundColor: '#FFF' }}>
                         <img
-                            src="https://scontent.fsla1-1.fna.fbcdn.net/v/t39.30808-1/305213684_515748907216882_425086654960683744_n.jpg?stp=c0.0.1268.1268a_dst-jpg_s480x480_tt6&_nc_cat=111&ccb=1-7&_nc_sid=2d3e12&_nc_eui2=AeHwbf02ytC1oqItyiUgr3tHMRyCtoUejfIxHIK2hR6N8sFi7JMugJFjj_uMwhRLadE&_nc_ohc=BUHTYjUCcpUQ7kNvgFZUNOI&_nc_oc=AdhtdijEMgRA_VY6UjRxyyzsnXgncYXvXKnMEzxMQe5vOMOjmB7St0aFl814Nzg4OReyvv8UnUsZARXC9_YbfFFe&_nc_zt=24&_nc_ht=scontent.fsla1-1.fna&_nc_gid=ACHYxTdsjUi2aj4h2ZGyoyG&oh=00_AYDJc3E2LFNoM3yPiHtaK6_JZsB6zd1LTFE2VWM8G6khPg&oe=678B57B0"
-                            alt="Del Vino Hotel Boutique"
+                            src={logoMz}
+                            alt="MZ Construcciones"
                             style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
                         />
-                        <h4 style={{ color: '#0c3553', marginTop: '15px' }}>DEL VINO BOUTIQUE HOTEL</h4>
+                        <h4 style={{ color: '#0c3553', marginTop: '15px' }}>MZ CONSTRUCCIONES</h4>
                         <p style={{ color: '#333', fontSize: '16px' }}>
-                            Beneficio exclusivo: hasta un 20% de descuento en productos seleccionados para socios.
+                            📍General Paz 558
+                            <br /> 💰10 % de descuento en efectivo en servicios de construcción
                         </p>
                     </div>
                     {/* Comercio 8 */}
                     <div className="comercio" style={{ width: '300px', padding: '20px', border: '1px solid #ccc', borderRadius: '10px', backgroundColor: '#FFF' }}>
                         <img
-                            src="https://scontent.fsla1-1.fna.fbcdn.net/v/t39.30808-1/305213684_515748907216882_425086654960683744_n.jpg?stp=c0.0.1268.1268a_dst-jpg_s480x480_tt6&_nc_cat=111&ccb=1-7&_nc_sid=2d3e12&_nc_eui2=AeHwbf02ytC1oqItyiUgr3tHMRyCtoUejfIxHIK2hR6N8sFi7JMugJFjj_uMwhRLadE&_nc_ohc=BUHTYjUCcpUQ7kNvgFZUNOI&_nc_oc=AdhtdijEMgRA_VY6UjRxyyzsnXgncYXvXKnMEzxMQe5vOMOjmB7St0aFl814Nzg4OReyvv8UnUsZARXC9_YbfFFe&_nc_zt=24&_nc_ht=scontent.fsla1-1.fna&_nc_gid=ACHYxTdsjUi2aj4h2ZGyoyG&oh=00_AYDJc3E2LFNoM3yPiHtaK6_JZsB6zd1LTFE2VWM8G6khPg&oe=678B57B0"
-                            alt="Del Vino Hotel Boutique"
+                            src={logoLasMascios}
+                            alt="Las Mascio's Boutique"
                             style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
                         />
-                        <h4 style={{ color: '#0c3553', marginTop: '15px' }}>DEL VINO BOUTIQUE HOTEL</h4>
+                        <h4 style={{ color: '#0c3553', marginTop: '15px' }}>LAS MASCIO'S BOUTIQUE</h4>
                         <p style={{ color: '#333', fontSize: '16px' }}>
-                            Beneficio exclusivo: hasta un 20% de descuento en productos seleccionados para socios.
+                            📍Balcarce 39 Local 38 Galeria La Continental
+                            <br /> 💰10 % de descuento en efectivo en indumentaria femenina
+                        </p>
+                    </div>
+                    {/* Comercio 9 */}
+                    <div className="comercio" style={{ width: '300px', padding: '20px', border: '1px solid #ccc', borderRadius: '10px', backgroundColor: '#FFF' }}>
+                        <img
+                            src={logoSuperCasino}
+                            alt="Super Casino"
+                            style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
+                        />
+                        <h4 style={{ color: '#0c3553', marginTop: '15px' }}>SÚPER CASINO</h4>
+                        <p style={{ color: '#333', fontSize: '16px' }}>
+                            📍Avenida República de Líbano 956
+                            <br /> 💰10% de descuento en efectivo exceptuando productos en oferta
+                        </p>
+                    </div>
+                    {/* Comercio 10 */}
+                    <div className="comercio" style={{ width: '300px', padding: '20px', border: '1px solid #ccc', borderRadius: '10px', backgroundColor: '#FFF' }}>
+                        <img
+                            src={logoBaruTiendaSaludable}
+                            alt="Barú Tienda Saludable"
+                            style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
+                        />
+                        <h4 style={{ color: '#0c3553', marginTop: '15px' }}>BARÚ TIENDA SALUDABLE</h4>
+                        <p style={{ color: '#333', fontSize: '16px' }}>
+                            📍Almirante Brown 311
+                            <br /> 💰10% de descuento en efectivo o transferencia en compras superiores a $10.000
+                        </p>
+                    </div>
+                    {/* Comercio 11 */}
+                    <div className="comercio" style={{ width: '300px', padding: '20px', border: '1px solid #ccc', borderRadius: '10px', backgroundColor: '#FFF' }}>
+                        <img
+                            src={logoMapacheBar}
+                            alt="Mapache Bar"
+                            style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
+                        />
+                        <h4 style={{ color: '#0c3553', marginTop: '15px' }}>MAPACHE BAR</h4>
+                        <p style={{ color: '#333', fontSize: '16px' }}>
+                            📍Avenida Entre Ríos 1933
+                            <br /> 💰15 % de descuento en bebidas y comidas en efectivo o transferencia
+                        </p>
+                    </div>
+                    {/* Comercio 12 */}
+                    <div className="comercio" style={{ width: '300px', padding: '20px', border: '1px solid #ccc', borderRadius: '10px', backgroundColor: '#FFF' }}>
+                        <img
+                            src={logoBooguieRetroBar}
+                            alt="Booguie Retro Bar"
+                            style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
+                        />
+                        <h4 style={{ color: '#0c3553', marginTop: '15px' }}>BOOGUIE RETRO BAR</h4>
+                        <p style={{ color: '#333', fontSize: '16px' }}>
+                            📍Ayacucho 133
+                            <br /> 💰15% de descuento en comidas y bebidas en efectivo o transferencia
+                        </p>
+                    </div>
+                    {/* Comercio 13 */}
+                    <div className="comercio" style={{ width: '300px', padding: '20px', border: '1px solid #ccc', borderRadius: '10px', backgroundColor: '#FFF' }}>
+                        <img
+                            src={logoElMisterPlays}
+                            alt="El Mister Plays"
+                            style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
+                        />
+                        <h4 style={{ color: '#0c3553', marginTop: '15px' }}>El Mister Plays SAS</h4>
+                        <p style={{ color: '#333', fontSize: '16px' }}>
+                            📍Alberdi 534 - General Güemes
+                            <br /> 💰10% de descuento en efectivo en artículos gamer y deportivos
+                        </p>
+                    </div>
+                    {/* Comercio 14 */}
+                    <div className="comercio" style={{ width: '300px', padding: '20px', border: '1px solid #ccc', borderRadius: '10px', backgroundColor: '#FFF' }}>
+                        <img
+                            src={logoSEBeautique}
+                            alt="SE Beautique SAS"
+                            style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
+                        />
+                        <h4 style={{ color: '#0c3553', marginTop: '15px' }}>SE BEAUTIQUE SAS</h4>
+                        <p style={{ color: '#333', fontSize: '16px' }}>
+                            📍Alberdi 532 - General Güemes
+                            <br /> 💰10% de descuento en efectivo en productos de estetica
+                        </p>
+                    </div>
+                    {/* Comercio 15 */}
+                    <div className="comercio" style={{ width: '300px', padding: '20px', border: '1px solid #ccc', borderRadius: '10px', backgroundColor: '#FFF' }}>
+                        <img
+                            src={logoMarianoTorresTaller}
+                            alt="Mariano Torres - Taller de Automotores"
+                            style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
+                        />
+                        <h4 style={{ color: '#0c3553', marginTop: '15px' }}>TALLER DE AUTOMOTORES MARIANO TORRES</h4>
+                        <p style={{ color: '#333', fontSize: '16px' }}>
+                            📍12 de Octubre 840
+                            <br /> 💰20% en un solo pago en efectivo y 10% con tarjeta en chapa y pintura
+                        </p>
+                    </div>
+                    {/* Comercio 16 */}
+                    <div className="comercio" style={{ width: '300px', padding: '20px', border: '1px solid #ccc', borderRadius: '10px', backgroundColor: '#FFF' }}>
+                        <img
+                            src={logoSigsas}
+                            alt="SIGSAS"
+                            style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
+                        />
+                        <h4 style={{ color: '#0c3553', marginTop: '15px' }}>SIGSAS</h4>
+                        <p style={{ color: '#333', fontSize: '16px' }}>
+                            📍Talcahuano 411
+                            <br /> 💰20% de descuento en efectivo en servicios de consulta empresarial
+                        </p>
+                    </div>
+                    {/* Comercio 17
+                    <div className="comercio" style={{ width: '300px', padding: '20px', border: '1px solid #ccc', borderRadius: '10px', backgroundColor: '#FFF' }}>
+                        <img
+                            src={logoMrMagoo}
+                            alt="Mr. Magoo"
+                            style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
+                        />
+                        <h4 style={{ color: '#0c3553', marginTop: '15px' }}>MR. MAGOO</h4>
+                        <p style={{ color: '#333', fontSize: '16px' }}>
+                            📍 España 910
+                            <br /> 💰 ⁠15 % de descuento en efectivo en sandwicheria, confitería y bebidas
+                        </p>
+                    </div> */}
+                    {/* Comercio 18 */}
+                    <div className="comercio" style={{ width: '300px', padding: '20px', border: '1px solid #ccc', borderRadius: '10px', backgroundColor: '#FFF' }}>
+                        <img
+                            src={logoTiendaLaFortuna}
+                            alt="Tienda La Fortuna"
+                            style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
+                        />
+                        <h4 style={{ color: '#0c3553', marginTop: '15px' }}>TIENDA LA FORTUNA</h4>
+                        <p style={{ color: '#333', fontSize: '16px' }}>
+                            📍Avenida San Martin 821
+                            <br /> 💰10% de descuento en efectivo o transferencia en artículos e indumentaria del gaucho en general
+                        </p>
+                    </div>
+                    {/* Comercio 19 */}
+                    <div className="comercio" style={{ width: '300px', padding: '20px', border: '1px solid #ccc', borderRadius: '10px', backgroundColor: '#FFF' }}>
+                        <img
+                            src={logoBarberiaCastillo}
+                            alt="Barbería Castillo"
+                            style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
+                        />
+                        <h4 style={{ color: '#0c3553', marginTop: '15px' }}>BARBERÍA CASTILLO</h4>
+                        <p style={{ color: '#333', fontSize: '16px' }}>
+                            📍San Luis 1406
+                            <br /> 💵15 % de descuento los días Lunes, Viernes y Sábados
+                            <br /> 💲30 % de descuento los días Martes, Miércoles y Jueves
+                            <br /> 💰Efectivo o transferencia
+                        </p>
+                    </div>
+                    {/* Comercio 20 */}
+                    <div className="comercio" style={{ width: '300px', padding: '20px', border: '1px solid #ccc', borderRadius: '10px', backgroundColor: '#FFF' }}>
+                        <img
+                            src={logoFerreteriaGay}
+                            alt="Ferretería Gay"
+                            style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
+                        />
+                        <h4 style={{ color: '#0c3553', marginTop: '15px' }}>FERRETERÍA GAY</h4>
+                        <p style={{ color: '#333', fontSize: '16px' }}>
+                            📍Jujuy 591
+                            <br /> 💰25% de descuento de contado, débito y una cuota sin interés
+                            <br /> 💲10% de descuento en 3 cuotas sin interés con VISA y MasterCard bancarizadas
+                            <br/> 💵Promoción no acumulable con otras disponibles.
+                        </p>
+                    </div>
+                    {/* Comercio 21 */}
+                    <div className="comercio" style={{ width: '300px', padding: '20px', border: '1px solid #ccc', borderRadius: '10px', backgroundColor: '#FFF' }}>
+                        <img
+                            src={logoSandwicheriaChanchin}
+                            alt="Sandwichería Chanchín"
+                            style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
+                        />
+                        <h4 style={{ color: '#0c3553', marginTop: '15px' }}>SANDWICHERÍA CHANCHÍN</h4>
+                        <p style={{ color: '#333', fontSize: '16px' }}>
+                            📍Alvarado 1939
+                            <br /> 💰15 % de descuento en efectivo o transferencia en bebidas y sandwiches
+                        </p>
+                    </div>
+                    {/* Comercio 22 */}
+                    <div className="comercio" style={{ width: '300px', padding: '20px', border: '1px solid #ccc', borderRadius: '10px', backgroundColor: '#FFF' }}>
+                        <img
+                            src={logoSaltaLac}
+                            alt="SALTALAC"
+                            style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
+                        />
+                        <h4 style={{ color: '#0c3553', marginTop: '15px' }}>SALTALAC</h4>
+                        <p style={{ color: '#333', fontSize: '16px' }}>
+                            📍Tavella 2231
+                            <br /> 💰10 % de descuento en efectivo
+                        </p>
+                    </div>
+                    {/* Comercio 23 */}
+                    <div className="comercio" style={{ width: '300px', padding: '20px', border: '1px solid #ccc', borderRadius: '10px', backgroundColor: '#FFF' }}>
+                        <img
+                            src={logoMymCelulares}
+                            alt="M&M Celulares"
+                            style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
+                        />
+                        <h4 style={{ color: '#0c3553', marginTop: '15px' }}>M&M CELULARES</h4>
+                        <p style={{ color: '#333', fontSize: '16px' }}>
+                            📍Florida 398
+                            <br /> 💰10% de descuento en efectivo en compra de accesorios, servicio técnico y compra de equipos nuevos y usados
+                        </p>
+                    </div>
+                    {/* Comercio 26 */}
+                    <div className="comercio" style={{ width: '300px', padding: '20px', border: '1px solid #ccc', borderRadius: '10px', backgroundColor: '#FFF' }}>
+                        <img
+                            src={logoGuzmanRepuestos}
+                            alt="Guzmán Repuestos"
+                            style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
+                        />
+                        <h4 style={{ color: '#0c3553', marginTop: '15px' }}>GUZMÁN REPUESTOS</h4>
+                        <p style={{ color: '#333', fontSize: '16px' }}>
+                            📍Coronel Vidt 98
+                            <br /> 💰15% de descuento en efectivo, transferencia y débito.
+                        </p>
+                    </div>
+                    {/* Comercio 24 */}
+                    <div className="comercio" style={{ width: '300px', padding: '20px', border: '1px solid #ccc', borderRadius: '10px', backgroundColor: '#FFF' }}>
+                        <img
+                            src={logoSuplementosNutricionales}
+                            alt="Suplementos Nutricionales Salta"
+                            style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
+                        />
+                        <h4 style={{ color: '#0c3553', marginTop: '15px' }}>SUPLEMENTOS NUTRICIONALES SALTA</h4>
+                        <p style={{ color: '#333', fontSize: '16px' }}>
+                            📍Suc. Centro: 25 de mayo 249
+                            <br />📍Suc. Zona Shopping: Alsina 151
+                            <br />📍Suc. Zona Sur: Avenida ex Combatientes de Malvinas 3814
+                            <br /> 💰10% de descuento en efectivo o transferencia y 3 cuotas sin interes a precio de lista con tarjeta.
+                        </p>
+                    </div>
+                    {/* Comercio 25 */}
+                    <div className="comercio" style={{ width: '300px', padding: '20px', border: '1px solid #ccc', borderRadius: '10px', backgroundColor: '#FFF' }}>
+                        <img
+                            src={logoCristianCelulares}
+                            alt="Cristian Celulares"
+                            style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
+                        />
+                        <h4 style={{ color: '#0c3553', marginTop: '15px' }}>CRISTIAN CELULARES</h4>
+                        <p style={{ color: '#333', fontSize: '16px' }}>
+                            📍Local 5 sector A Mercado San Miguel
+                            <br /> 💰10% de descuento en efectivo transferencia en servicio técnico y 15 % de descuento en compra de  nuevos o usados efectivo o transferencia.
+                        </p>
+                    </div>
+                    {/* Comercio 26 */}
+                    <div className="comercio" style={{ width: '300px', padding: '20px', border: '1px solid #ccc', borderRadius: '10px', backgroundColor: '#FFF' }}>
+                        <img
+                            src={logoMecanicaRicardoMartin}
+                            alt="Mecánica Integral Ricardo Martin"
+                            style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
+                        />
+                        <h4 style={{ color: '#0c3553', marginTop: '15px' }}>MECÁNICA INTEGRAL RICARDO MARTIN</h4>
+                        <p style={{ color: '#333', fontSize: '16px' }}>
+                            📍Los Lanceros 1486
+                            <br /> 💰20% de descuento en efectivo o transferencia.
+                        </p>
+                    </div>
+                    {/* Comercio 26 */}
+                    <div className="comercio" style={{ width: '300px', padding: '20px', border: '1px solid #ccc', borderRadius: '10px', backgroundColor: '#FFF' }}>
+                        <img
+                            src={logoNegroCopa}
+                            alt="Lo del Negro Copa"
+                            style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
+                        />
+                        <h4 style={{ color: '#0c3553', marginTop: '15px' }}>LO DEL NEGRO COPA</h4>
+                        <p style={{ color: '#333', fontSize: '16px' }}>
+                            📍12 de Octubre 581
+                            <br /> 💰10% de descuento en efectivo, transferencia y débito.
                         </p>
                     </div>
                 </div>
