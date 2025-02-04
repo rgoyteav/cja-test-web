@@ -63,6 +63,9 @@ const NavigationBar = () => {
             <li className="nav-item">
               <Link disabled className="nav-link" to="/polideportivo" onClick={handleLinkClick}>Polideportivo (En progreso)</Link>
             </li>
+            <li className="nav-item">
+              <Link disabled className="nav-link" to="/contacto" onClick={handleLinkClick}>Contacto</Link>
+            </li>
             {/* <li className="nav-item">
               <Link className="nav-link" to="/tienda" onClick={handleLinkClick}>Tienda (En progreso)</Link>
             </li> */}

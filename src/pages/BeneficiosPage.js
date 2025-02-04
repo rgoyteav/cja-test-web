@@ -27,6 +27,10 @@ import logoCristianCelulares from '../assets/cristian-celulares.jpeg';
 import logoMecanicaRicardoMartin from '../assets/ricardo-martin-mecanica-integral.png';
 import logoNegroCopa from '../assets/lo-del-negro-copa.png';
 import logoGuzmanRepuestos from '../assets/guzman-repuestos.jpeg'
+import logoStarCars from '../assets/star-cars.jpeg'
+import logoBateriasZarate from '../assets/baterias-zarate.jpeg'
+import logoHefestoHerreria from '../assets/hefesto-herreria.jpeg'
+import logoDonTomas from '../assets/kiosco-don-tomas.png'
 
 const BeneficiosPage = () => {
     return (
@@ -58,7 +62,7 @@ const BeneficiosPage = () => {
                         <p style={{ color: '#333', fontSize: '16px' }}>
                             📍Ameghino 555
                             <br />💰20% de descuento en alojamiento.
-                            <br />💰10% de descuento en vinería del hotel.
+                            <br />💵10% de descuento en vinería del hotel.
                         </p>
                     </div>
                     {/* Comercio 3 */}
@@ -85,8 +89,8 @@ const BeneficiosPage = () => {
                         <p style={{ color: '#333', fontSize: '16px' }}>
                             📍Mitre 620 - Salta
                             <br />💰10% de descuento en lavadero.
-                            <br />💰5% de descuento en lubricantes o cambio de aceite.
-                            <br />💰5% de descuento en confitería.
+                            <br />💵5% de descuento en lubricantes o cambio de aceite.
+                            <br />💲5% de descuento en confitería.
                             <br /> ✅Si te asocias al A.C.A, tenés un lavado de carrocería e interior gratis.
                         </p>
                     </div>
@@ -101,7 +105,7 @@ const BeneficiosPage = () => {
                         <p style={{ color: '#333', fontSize: '16px' }}>
                             📍Av de los terebintos s/N esquina Coronel Barros - Anillaco, La Rioja
                             <br />💰15% de descuento en Hostería.
-                            <br />💰20% de descuento en restaurante.
+                            <br />💵20% de descuento en restaurante.
                         </p>
                     </div>
                     {/* Comercio 1 */}
@@ -392,9 +396,9 @@ const BeneficiosPage = () => {
                         />
                         <h4 style={{ color: '#0c3553', marginTop: '15px' }}>SUPLEMENTOS NUTRICIONALES SALTA</h4>
                         <p style={{ color: '#333', fontSize: '16px' }}>
-                            📍Suc. Centro: 25 de mayo 249
-                            <br />📍Suc. Zona Shopping: Alsina 151
-                            <br />📍Suc. Zona Sur: Avenida ex Combatientes de Malvinas 3814
+                            📍<b>Suc. Centro:</b> 25 de mayo 249
+                            <br />📍<b>Suc. Zona Shopping:</b> Alsina 151
+                            <br />📍<b>Suc. Zona Sur:</b> Avenida ex Combatientes de Malvinas 3814
                             <br /> 💰10% de descuento en efectivo o transferencia y 3 cuotas sin interes a precio de lista con tarjeta.
                         </p>
                     </div>
@@ -435,6 +439,60 @@ const BeneficiosPage = () => {
                         <p style={{ color: '#333', fontSize: '16px' }}>
                             📍12 de Octubre 581
                             <br /> 💰10% de descuento en efectivo, transferencia y débito.
+                        </p>
+                    </div>
+                    {/* Comercio 26 */}
+                    <div className="comercio" style={{ width: '300px', padding: '20px', border: '1px solid #ccc', borderRadius: '10px', backgroundColor: '#FFF' }}>
+                        <img
+                            src={logoStarCars}
+                            alt="Star Cars Mecánica"
+                            style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
+                        />
+                        <h4 style={{ color: '#0c3553', marginTop: '15px' }}>STAR CARS MECÁNICA</h4>
+                        <p style={{ color: '#333', fontSize: '16px' }}>
+                            📍Zuviría 1708
+                            <br /> 💰20% de descuento en trabajos de mecánica en general abonando con efectivo, transferencia, débito y crédito.
+                        </p>
+                    </div>
+                    {/* Comercio 26 */}
+                    <div className="comercio" style={{ width: '300px', padding: '20px', border: '1px solid #ccc', borderRadius: '10px', backgroundColor: '#FFF' }}>
+                        <img
+                            src={logoBateriasZarate}
+                            alt="Baterías Zárate"
+                            style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
+                        />
+                        <h4 style={{ color: '#0c3553', marginTop: '15px' }}>BATERÍAS ZÁRATE</h4>
+                        <p style={{ color: '#333', fontSize: '16px' }}>
+                            📍San Luis 1207
+                            <br/>📍Zuviria 1472
+                            <br /> 💰15 % de descuento abonando en efectivo y 6 cuotas sin interés visa o MasterCard bancarizadas.
+                        </p>
+                    </div>
+                    {/* Comercio 26 */}
+                    <div className="comercio" style={{ width: '300px', padding: '20px', border: '1px solid #ccc', borderRadius: '10px', backgroundColor: '#FFF' }}>
+                        <img
+                            src={logoHefestoHerreria}
+                            alt="Hefesto Herrería"
+                            style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
+                        />
+                        <h4 style={{ color: '#0c3553', marginTop: '15px' }}>HEFESTO HERRERÏA</h4>
+                        <p style={{ color: '#333', fontSize: '16px' }}>
+                            📍Avenida Entre Ríos 241
+                            <br /> 💰15 % de descuento abonando en efectivo o transferencia.
+                        </p>
+                    </div>
+                    {/* Comercio 26 */}
+                    <div className="comercio" style={{ width: '300px', padding: '20px', border: '1px solid #ccc', borderRadius: '10px', backgroundColor: '#FFF' }}>
+                        <img
+                            src={logoDonTomas}
+                            alt="Kiosco Don Tomás"
+                            style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
+                        />
+                        <h4 style={{ color: '#0c3553', marginTop: '15px' }}>KIOSCO DON TOMÁS</h4>
+                        <p style={{ color: '#333', fontSize: '16px' }}>
+                            📍Zuviría 2350
+                            <br/>📍Zuviría 2663
+                            <br /> 💰15% de descuento en efectivo o transferencia.
                         </p>
                     </div>
                 </div>

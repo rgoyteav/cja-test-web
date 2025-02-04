@@ -10,18 +10,36 @@ const ContactForm = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setLoading(true);
-    // Simular envío
-    setTimeout(() => {
-      console.log('Enviando mensaje:', { name, email, message });
-      alert('¡Gracias por tu mensaje!');
-      setLoading(false);
-    }, 2000);
+    try {
+      setLoading(true);
+      // Simular envío
+      const response = await fetch("https://cja-web-api.azurewebsites.net/api/contact/send", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ name, email, message }),
+      });
+      if (response.ok) {
+        alert("¡Gracias por tu mensaje!");
+      } else {
+        alert("Hubo un error al enviar el mensaje.");
+      }
+    }
+    catch (error) {
+      console.error("Error al enviar el mensaje:", error);
+      alert("Ocurrió un problema, intenta nuevamente.");
+    } finally {
+      setName("");
+      setEmail("");
+      setMessage("");
+      setLoading(false); // Finalizar la carga en cualquier caso
+    }
   };
 
   return (
     <div className="contact-form-container">
-      <h3 className="form-title">Contacto</h3>
+      <h3 className="form-title">¡Contactate con nosotros!</h3>
       <Form onSubmit={handleSubmit} className="contact-form">
         <Form.Group className="mb-4" controlId="formName">
           <Form.Label className="form-label">Nombre</Form.Label>
