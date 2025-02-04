@@ -4,6 +4,9 @@ import ContactForm from './ContactForm';
 import { Link } from 'react-router-dom';
 import logo from '../assets/escudo-cja.png'
 import BannerSlider from '../components/BannerSlider';
+import fotoFrayCarousel from '../assets/pictures/fray/fray-2.jpg';
+import fotoFrayCarousel2 from '../assets/pictures/fray/fray-3.jpg';
+import fotoFrayCarousel3 from '../assets/pictures/familia/familia-5.jpg';
 
 const HomePage = () => {
     useEffect(() => {
@@ -19,8 +22,8 @@ const HomePage = () => {
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
-                            src="https://scontent.fsla1-1.fna.fbcdn.net/v/t39.30808-6/425550398_684399557202284_7893717502934423826_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeHYBNvUGRWq4rNRJla0GcqzaUmOkasFYg5pSY6RqwViDqJXD8uTyg8zAQkLE2gfo30&_nc_ohc=SPQt4se15hsQ7kNvgH5j8R4&_nc_oc=Adj4VNlgzznZq7dtrZUcwbWeHEJxmMVMOJHMFI3iqJbo5UXHM1O-yp8qYWRMYjRF974&_nc_zt=23&_nc_ht=scontent.fsla1-1.fna&_nc_gid=A48eBbz_q-TFMFz2ZxShqSu&oh=00_AYBdO9Kk4dWRgB83SzFwBlcJCllf3ratGf5cKODiU3I5Mw&oe=678B3773"
-                            alt="Primera foto"
+                            src={fotoFrayCarousel}
+                            alt="Fray Honorato Pistoia"
                             style={{ height: '500px', objectFit: 'cover' }} // Asegura una altura uniforme
                         />
                         <Carousel.Caption
@@ -37,8 +40,8 @@ const HomePage = () => {
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
-                            src="https://scontent.fsla1-1.fna.fbcdn.net/v/t39.30808-6/326735152_698064808636812_5142633167108157094_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=86c6b0&_nc_eui2=AeGBqw3LpI6nU49ujs4eN-hfP-v-0x8wXeQ_6_7THzBd5LpMMtlKSkOfKFGFC5T1jeo&_nc_ohc=KRQc3aTOErYQ7kNvgGhm73i&_nc_oc=Adgnf_Cm-zGzt_kKRmHHttS2-937Bx55XfuT725Bj16-kApg7EseYRYDWU9-Dny6-hY&_nc_zt=23&_nc_ht=scontent.fsla1-1.fna&_nc_gid=A6dGiTUhDuQqpoNkgYt6aLm&oh=00_AYCpjYwxNQEBfZ6qYVgqZX5wOJlDucnI7oJ7RQ17GWtyhQ&oe=678B4530"
-                            alt="Segunda foto"
+                            src={fotoFrayCarousel2}
+                            alt="Fray Honorato Pistoia"
                             style={{ height: '500px', objectFit: 'cover' }}
                         />
                         <Carousel.Caption
@@ -55,8 +58,8 @@ const HomePage = () => {
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
-                            src="https://scontent.fsla1-1.fna.fbcdn.net/v/t1.6435-9/82178711_2985455058145659_5607948427703877632_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeGoOeKZLR2GMFbeIYIfYMeUzU0rfidjNKDNTSt-J2M0oOCocNq9sWHIZawfVzLv9HQ&_nc_ohc=YwYtnmhzKVMQ7kNvgFWPf2R&_nc_oc=Adhqapd3kuIqVG98pbBCyYze_bwd2kyA-yhRqphlrJFs9wnJeOm68_Dsx9HR1E6hbKd-TxZN2cV-C45D02gtdaBX&_nc_zt=23&_nc_ht=scontent.fsla1-1.fna&_nc_gid=ABUgjBve5G5qfUIZRNu872J&oh=00_AYBtZAkJwcsdOj4AjZTzg_Iz4kDzuRBgRInqAJa4xm9lIA&oe=67ACD99E"
-                            alt="Tercera foto"
+                            src={fotoFrayCarousel3}
+                            alt="Platea de la familia Antoniana"
                             style={{ height: '500px', objectFit: 'cover' }}
                         />
                         <Carousel.Caption

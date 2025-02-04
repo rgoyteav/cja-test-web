@@ -1,5 +1,5 @@
 import React from 'react';
-import 'font-awesome/css/font-awesome.min.css';  // Asegúrate de importar los estilos de Font Awesome
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const Footer = () => {
   return (
@@ -10,15 +10,22 @@ const Footer = () => {
 
       {/* Sección de redes sociales */}
       <div className="social-links">
+        <a href='http://api.whatsapp.com/send?phone=543873032500' target='_blank' rel="noopener noreferrer" style={{ color: '#F0F5F5', margin: '0 10px' }}>
+          <i className="fab fa-whatsapp" style={{ fontSize: '24px' }}></i>
+        </a>
         <a href="https://www.facebook.com/CJAOficial" target="_blank" rel="noopener noreferrer" style={{ color: '#F0F5F5', margin: '0 10px' }}>
-          <i className="fa fa-facebook" style={{ fontSize: '24px' }}></i>
+          <i className="fab fa-facebook" style={{ fontSize: '24px' }}></i>
         </a>
         <a href="https://www.instagram.com/cjaoficial" target="_blank" rel="noopener noreferrer" style={{ color: '#F0F5F5', margin: '0 10px' }}>
-          <i className="fa fa-instagram" style={{ fontSize: '24px' }}></i>
+          <i className="fab fa-instagram" style={{ fontSize: '24px' }}></i>
         </a>
         <a href="https://twitter.com/CJAOficial" target="_blank" rel="noopener noreferrer" style={{ color: '#F0F5F5', margin: '0 10px' }}>
-          <i className="fa fa-twitter" style={{ fontSize: '24px' }}></i>
+          <i className="fab fa-twitter" style={{ fontSize: '24px' }}></i>
         </a>
+        <a href="https://twitter.com/CJAOficial" target="_blank" rel="noopener noreferrer" style={{ color: '#F0F5F5', margin: '0 10px' }}>
+          <i className="fab fa-tiktok" style={{ fontSize: '24px' }}></i>
+        </a>
+
       </div>
 
       {/* Correo electrónico */}

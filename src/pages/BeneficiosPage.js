@@ -44,7 +44,7 @@ const BeneficiosPage = () => {
                 <p>Si tenés un comercio y querés formar parte del Programa de Beneficios del Centro Juventud Antoniana, 
                     llená el <a href="/contacto" target='_blank' style={{ color: '#F0F5F5' }}>formulario de contacto</a> o envianos un 
                     email a <a href="mailto:institucional@juventudantoniana.com.ar" style={{ color: '#F0F5F5' }}>institucional@juventudantoniana.com.ar</a>,
-                    y te contactaremos a la brevedad para contarte los beneficios que tenemos para tu vos y tu negocio.
+                    y te contactaremos a la brevedad para contarte los beneficios que tenemos para vos y tu negocio.
                 </p>
             </section>
 

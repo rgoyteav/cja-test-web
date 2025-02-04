@@ -57,7 +57,8 @@ const NavigationBar = () => {
                 <li><a className="nav-link"  href="https://juventudantoniana.accessfan.ar" target="_blank" rel="noopener noreferrer" onClick={handleLinkClick}>Asociate con AccessFan</a></li>
                 <li><Link className="nav-link" to="/tipos-cuotas" onClick={handleLinkClick}>Tipos y valores de cuotas sociales</Link></li>
                 <li><Link className="nav-link" to="/programa-referidos" onClick={handleLinkClick}>Asociá a un amigo y ganá</Link></li>
-                <li><Link className="nav-link" to="/abonos" onClick={handleLinkClick}>Abonos para socios y no socios (Muy pronto)</Link></li>
+                <li><Link className="nav-link" to="/abonos" onClick={handleLinkClick}>Abonos para socios (Muy pronto)</Link></li>
+                <li><a className="nav-link"  href="http://api.whatsapp.com/send?phone=543873032500" target="_blank" rel="noopener noreferrer" onClick={handleLinkClick}>WhatsApp de Socios</a></li>
               </ul>
             </li>
             <li className="nav-item">
