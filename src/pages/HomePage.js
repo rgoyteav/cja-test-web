@@ -127,16 +127,20 @@ const HomePage = () => {
                         style={{ border: 'none', overflow: 'hidden' }}
                     ></iframe>
 
-                    <a class="twitter-timeline"
+                    {/* <a class="twitter-timeline"
                         data-width="340"
                         data-height="500"
                         href="https://twitter.com/CJAOficial?ref_src=twsrc%5Etfw"></a>
-                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> */}
+
+                    {/* <a class="twitter-timeline" data-lang="es" data-width="340" data-height="500" 
+                    href="https://twitter.com/CJAOficial?ref_src=twsrc%5Etfw">Tweets by CJAOficial</a> 
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> */}
 
                     <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@cja.oficial" 
                                 data-unique-id="cja.oficial" data-embed-from="embed_page" 
                                 data-embed-type="creator"
-                                style={{maxWidth: '100%', height:'100%'}}> 
+                                style={{maxWidth: '340', height:'500'}}> 
                                 <section> <a target="_blank" 
                                              href="https://www.tiktok.com/@cja.oficial?refer=creator_embed"
                                              width="100%">@cja.oficial</a> 

@@ -33,6 +33,7 @@ import logoBateriasZarate from '../assets/baterias-zarate.jpeg'
 import logoHefestoHerreria from '../assets/hefesto-herreria.jpeg'
 import logoDonTomas from '../assets/kiosco-don-tomas.png'
 import logoLgHerreria from '../assets/lg-herreria.jpeg'
+import logoVove from '../assets/vove.jpeg'
 
 const BeneficiosPage = () => {
     return (
@@ -147,7 +148,7 @@ const BeneficiosPage = () => {
                         />
                         <h4 style={{ color: '#0c3553', marginTop: '15px' }}>EMELE - SUBLIMACIÓN & GRÁFICA</h4>
                         <p style={{ color: '#333', fontSize: '16px' }}>
-                            📍Córdoba 643
+                            📍Córdoba 823
                             <br /> 💰15 % de descuento en efectivo o transferencia
                         </p>
                     </div>
@@ -508,6 +509,19 @@ const BeneficiosPage = () => {
                         <p style={{ color: '#333', fontSize: '16px' }}>
                             📍Pasaje Martin Castañeres 547 - B° Ceferino
                             <br /> 💰20% de descuento abonando en efectivo.
+                        </p>
+                    </div>
+                    {/* Comercio 26 */}
+                    <div className="comercio" style={{ width: '300px', padding: '20px', border: '1px solid #ccc', borderRadius: '10px', backgroundColor: '#FFF' }}>
+                        <img
+                            src={logoVove}
+                            alt="VOVE"
+                            style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
+                        />
+                        <h4 style={{ color: '#0c3553', marginTop: '15px' }}>VOVE</h4>
+                        <p style={{ color: '#333', fontSize: '16px' }}>
+                            📍Vicente López 498
+                            <br /> 💰15% de descuento abonando en efectivo.
                         </p>
                     </div>
                 </div>
