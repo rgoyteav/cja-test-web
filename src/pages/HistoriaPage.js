@@ -1,18 +1,34 @@
 import React from 'react';
+import { motion } from 'framer-motion';
+
+const fadeInUp = {
+  hidden: { opacity: 0, y: 50 },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.8 } }
+};
 
 const HistoriaPage = () => {
   return (
     <div className="historia-page">
       <div class="container">
-        <section>
+        <motion.div
+          className="fotos"
+          initial="hidden"
+          animate="visible"
+          variants={fadeInUp}
+        >
           <h1>Fundación</h1>
           <p>En noviembre de 1915, el Obispo de nuestra provincia, José Gregorio Calixto Romero, autorizó al Padre Enrique Biagini a fundar un centro destinado a
             “alejar a los jóvenes de ambos sexos del contagio de los malos hábitos y encauzarlos en el camino de las buenas costumbres”.</p>
           <p>El 6 de diciembre de 1915, en Corrientes, se redactó en latín el acta de “erección canónica” de Juventud Antoniana, firmada por el Padre Lorenzo Mondanelli.
             Esta llegó a Salta, y la primera reunión tuvo lugar el 12 de enero de 1916, fecha establecida como la fundación oficial del club.</p>
-        </section>
+        </motion.div>
 
-        <section>
+        <motion.div
+          className="fotos"
+          initial="hidden"
+          animate="visible"
+          variants={fadeInUp}
+        >
           <h2>Historia Deportiva</h2>
           <p>En 1921 se fundó la Liga Salteña de Fútbol, siendo Juventud Antoniana uno de los clubes fundadores. Su primer título local llegó en 1928.
             Hasta 1967 el interior no tenía lugar en los torneos de AFA por lo que el Santo se convirtió en el equipo más popular de la
@@ -50,9 +66,13 @@ const HistoriaPage = () => {
             del 2014, por esas cosas del destino, tuvieron que jugar un desempate por no descender los máximo rivales de la provincia. Luego del empate sin goles,
             llegaron los penales, Mariano Maino (ex arquero del clásico rival) ataja un penal, Matías López liquida la serie para enviar al descenso a Central Norte.
           </p>
-        </section>
+        </motion.div>
 
-        <section>
+        <motion.section
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          variants={fadeInUp}>
           <h2>Logros y Récords</h2>
           <ul>
             <li>
@@ -64,9 +84,13 @@ const HistoriaPage = () => {
             <li>Récord nacional de 44 partidos invicto (1988/89).</li>
             <li>2 veces campeón del Torneo Argentino A (1995/96 y 1997/98).</li>
           </ul>
-        </section>
+        </motion.section>
 
-        <section>
+        <motion.section
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          variants={fadeInUp}>
           <h2>Datos Destacados</h2>
           <p><strong>Apodo del Club:</strong> Santo (anteriormente "Franciscano").</p>
           <p><strong>Clásicos:</strong>
@@ -92,9 +116,13 @@ const HistoriaPage = () => {
             David Cerutti, Luis Velázquez, Sergio Liendro, Víctor Vargas, Juan Pablo Cárdenas, Marcos Navarro, Carlos Medina, Matías Rinaudo, José Luis Campi,
             Raúl Gorostegui, Oscar Domínguez, Hernán Hechalar, Gustavo Ortiz, Gustavo Ibañez, Gustavo Balvorin, Nicolas Perez, Martin Esparza.
           </p>
-        </section>
+        </motion.section>
 
-        <section>
+        <motion.section
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          variants={fadeInUp}>
           <h2>Dirigentes Destacados</h2>
           <p><strong>Ingeniero Alfonso Peralta:</strong> Primer presidente (provisorio), y el dirigente con más años en el cargo de presidencial (18 años en
             distintas etapas), además un reconocido ingeniero en la provincia de Salta. Impulsor de obras hidráulicas tendientes a la evolución y desarrollo de la
@@ -108,8 +136,8 @@ const HistoriaPage = () => {
             como aquel salteño que de toda su vida alienta desde los tablones. Socio fundando del Instituto Guemesiano de Salta, director del Instituto Padre Gabriel
             Tommasini, docente, periodista, escribió varios libros (“La Iglesia en Salta en la época hispánica” incluido en “Estudio socio económico y cultural de Salta”
             Centro de Investigaciones de la Universidad Nacional de Salta, Tomo III. "La Iglesia de Salta en la época hispánica". “Los Franciscanos en el Tucumán
-            1566 – 1810”. “Los Franciscanos en el Tucumán y en el Norte Argentino 1566-1973”. “El pensamiento politico de Güemes”. (Nombre real: Benedetto Pistoia)</p>
-        </section>
+            1566 - 1810”. “Los Franciscanos en el Tucumán y en el Norte Argentino 1566-1973”. “El pensamiento politico de Güemes”. (Nombre real: Benedetto Pistoia)</p>
+        </motion.section>
       </div>
     </div>
   );

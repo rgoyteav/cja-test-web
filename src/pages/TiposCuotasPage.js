@@ -2,11 +2,22 @@
 
 import React from 'react';
 // import './TiposCuotas.css'; // Si quieres agregar estilos específicos
+import { motion } from 'framer-motion';
+
+const fadeInUp = {
+  hidden: { opacity: 0, y: 50 },
+  visible: { opacity: 1, y: 0, transition: { duration: 2 } }
+};
 
 const TiposCuotasPage = () => {
   return (
     <div className="container mt-5">
       <h1 className="text-center" style={{ color: '#0c3553', fontWeight: 'bold' }}>Tipos y valores de cuotas sociales</h1>
+      <motion.div
+      initial="hidden"
+      animate="visible"
+      variants={fadeInUp}
+    >
       <div className="mt-4">
         <p>En el Centro Juventud Antoniana ofrecemos diferentes tipos de cuotas sociales adaptadas a las necesidades de nuestros socios. A continuación, te detallamos las cuotas y sus respectivos valores mensuales, junto con descuentos especiales para grupos familiares.</p>
 
@@ -56,6 +67,7 @@ const TiposCuotasPage = () => {
         
         <p><strong>¡Unite al Santo y disfruta de todos los beneficios de ser parte de la comunidad antoniana!</strong></p>
       </div>
+      </motion.div>
     </div>
   );
 };

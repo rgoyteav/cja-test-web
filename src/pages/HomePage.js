@@ -1,88 +1,83 @@
 import React, { useEffect } from 'react';
 import { Carousel } from 'react-bootstrap';
 import ContactForm from './ContactForm';
-import { Link } from 'react-router-dom';
-import logo from '../assets/escudo-cja.png'
 import BannerSlider from '../components/BannerSlider';
+import { motion } from 'framer-motion';
 import fotoFrayCarousel from '../assets/pictures/fray/fray-2.jpg';
 import fotoFrayCarousel2 from '../assets/pictures/fray/fray-3.jpg';
 import fotoFrayCarousel3 from '../assets/pictures/familia/familia-5.jpg';
 
+const fadeInUp = {
+    hidden: { opacity: 0, y: 50 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.8 } }
+};
+
 const HomePage = () => {
     useEffect(() => {
-        // Forzar que el script de Twitter se ejecute nuevamente
         if (window.twttr && window.twttr.widgets) {
             window.twttr.widgets.load();
         }
-    }, []); // Este useEffect se ejecuta cada vez que el componente se monta
+    }, []);
+
     return (
         <div>
-            <section className="fotos">
+            {/* Carrusel de imágenes */}
+            <motion.div
+                className="fotos"
+                initial="hidden"
+                animate="visible"
+                variants={fadeInUp}
+            >
                 <Carousel>
                     <Carousel.Item>
-                        <img
-                            className="d-block w-100"
-                            src={fotoFrayCarousel}
-                            alt="Fray Honorato Pistoia"
-                            style={{ height: '500px', objectFit: 'cover' }} // Asegura una altura uniforme
-                        />
-                        <Carousel.Caption
-                            style={{
-                                backgroundColor: 'rgba(240, 245, 245, 0.8)',  // Fondo de color gris claro
-                                color: '#3C2713',  // Color de texto oscuro para buen contraste
-                                padding: '20px',
-                            }}
-                        >
+                        <img className="d-block w-100" src={fotoFrayCarousel} alt="Fray Honorato Pistoia"
+                            style={{ height: '500px', objectFit: 'cover' }} />
+                        <Carousel.Caption style={{ backgroundColor: 'rgba(240, 245, 245, 0.8)', color: '#3C2713', padding: '20px' }}>
                             <h3>Bienvenidos al Centro Juventud Antoniana</h3>
                             <p>¡Asociate al club y formá parte de nuestra familia!</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img
-                            className="d-block w-100"
-                            src={fotoFrayCarousel2}
-                            alt="Fray Honorato Pistoia"
-                            style={{ height: '500px', objectFit: 'cover' }}
-                        />
-                        <Carousel.Caption
-                            style={{
-                                backgroundColor: 'rgba(240, 245, 245, 0.8)',  // Fondo de color gris claro
-                                color: '#3C2713',  // Color de texto oscuro para buen contraste
-                                padding: '20px',
-                            }}
-                        >
+                        <img className="d-block w-100" src={fotoFrayCarousel2} alt="Fray Honorato Pistoia"
+                            style={{ height: '500px', objectFit: 'cover' }} />
+                        <Carousel.Caption style={{ backgroundColor: 'rgba(240, 245, 245, 0.8)', color: '#3C2713', padding: '20px' }}>
                             <h3>El más popular desde 1916</h3>
                             <p>Hace 109 años, somos el único Santo del país</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img
-                            className="d-block w-100"
-                            src={fotoFrayCarousel3}
-                            alt="Platea de la familia Antoniana"
-                            style={{ height: '500px', objectFit: 'cover' }}
-                        />
-                        <Carousel.Caption
-                            style={{
-                                backgroundColor: 'rgba(240, 245, 245, 0.8)',  // Fondo de color gris claro
-                                color: '#3C2713',  // Color de texto oscuro para buen contraste
-                                padding: '20px',
-                            }}
-                        >
+                        <img className="d-block w-100" src={fotoFrayCarousel3} alt="Platea de la familia Antoniana"
+                            style={{ height: '500px', objectFit: 'cover' }} />
+                        <Carousel.Caption style={{ backgroundColor: 'rgba(240, 245, 245, 0.8)', color: '#3C2713', padding: '20px' }}>
                             <h3>¡El santo no se explica, se siente!</h3>
                             <p>Venite, ponete la camiseta y viví esta pasión.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
-            </section>
+            </motion.div>
 
-            <BannerSlider />
+            {/* Banner de sponsors */}
+            <motion.div
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+                variants={fadeInUp}
+            >
+                <BannerSlider />
+            </motion.div>
 
-            <section className="publicidad" style={{ textAlign: 'center', padding: '40px 0', backgroundColor: '#F0F5F5', color: '#0c3553' }}>
+            {/* Sección de Publicidad */}
+            <motion.section
+                className="publicidad"
+                style={{ textAlign: 'center', padding: '40px 0', backgroundColor: '#F0F5F5', color: '#0c3553' }}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+                variants={fadeInUp}
+            >
                 <h2 style={{ marginBottom: '20px', fontSize: '30px' }}>¡No te lo pierdas!</h2>
                 <p style={{ fontSize: '20px', marginBottom: '20px' }}>
                     Conocé los comercios adheridos a nuestro programa de beneficios para socios y aprovechá promociones exclusivas.
-                    <br />¡Tu oportunidad de ser parte del club más grande está acá!
                 </p>
                 <a href="/beneficios" style={{
                     backgroundColor: '#0c3553', color: '#FFF', padding: '15px 30px', fontSize: '18px',
@@ -92,17 +87,33 @@ const HomePage = () => {
                     onMouseLeave={(e) => e.target.style.backgroundColor = '#0c3553'}>
                     Programa de Beneficios
                 </a>
-            </section>
+            </motion.section>
 
-             <section className="redes-sociales-preview" style={{ textAlign: 'center', padding: '40px 0', backgroundColor: '#F0F5F5' }}>
+            {/* Redes Sociales */}
+            <motion.section
+                className="redes-sociales-preview"
+                style={{ textAlign: 'center', padding: '40px 0', backgroundColor: '#F0F5F5' }}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+                variants={fadeInUp}
+            >
                 <h2 style={{ color: '#0c3553' }}>¡Conectate con el Santo!</h2>
                 <p style={{ color: '#3C2713', fontSize: '18px' }}>
                     Descubrí las últimas novedades en nuestras redes sociales. ¡Seguinos y formá parte de nuestra comunidad!
                 </p>
+            </motion.section>
 
-                
+            {/* Mapa */}
+            <motion.section
+                style={{ padding: '40px 0', textAlign: 'center', backgroundColor: '#F0F5F5' }}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+                variants={fadeInUp}
+            >
                 <div className="social-iframe" style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap', gap: '20px', marginTop: '20px' }}>
-                    
+
                     <iframe
                         title="Facebook"
                         src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FCJAOficial&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
@@ -137,20 +148,25 @@ const HomePage = () => {
                     href="https://twitter.com/CJAOficial?ref_src=twsrc%5Etfw">Tweets by CJAOficial</a> 
                     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> */}
 
-                    <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@cja.oficial" 
-                                data-unique-id="cja.oficial" data-embed-from="embed_page" 
-                                data-embed-type="creator"
-                                style={{maxWidth: '340', height:'500'}}> 
-                                <section> <a target="_blank" 
-                                             href="https://www.tiktok.com/@cja.oficial?refer=creator_embed"
-                                             width="100%">@cja.oficial</a> 
-                                </section> 
-                    </blockquote> 
+                    <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@cja.oficial"
+                        data-unique-id="cja.oficial" data-embed-from="embed_page"
+                        data-embed-type="creator"
+                        style={{ maxWidth: '340', height: '500' }}>
+                        <motion.section> <a target="_blank"
+                            href="https://www.tiktok.com/@cja.oficial?refer=creator_embed"
+                            width="100%">@cja.oficial</a>
+                        </motion.section>
+                    </blockquote>
                     <script async src="https://www.tiktok.com/embed.js"></script>
                 </div>
-            </section>
+            </motion.section>
 
-            <section style={{ padding: '40px 0', textAlign: 'center', padding: '40px 0', backgroundColor: '#F0F5F5' }}>
+            <motion.section 
+                style={{ padding: '40px 0', textAlign: 'center', padding: '40px 0', backgroundColor: '#F0F5F5' }}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+                variants={fadeInUp}>
                 <h2 style={{ color: '#0c3553', marginBottom: '20px' }}>Nuestra Ubicación</h2>
                 <p style={{ marginBottom: '20px', color: '#333' }}>Visitanos en el Fray Honorato Pistoia</p>
                 <div style={{ border: '1px solid #ccc', borderRadius: '10px', overflow: 'hidden', width: '80%', margin: '0 auto' }}>
@@ -164,12 +180,20 @@ const HomePage = () => {
                         title="Ubicación Juventud Antoniana"
                     ></iframe>
                 </div>
-            </section>
+            </motion.section>
 
-            <section className="contact" style={{ padding: '40px 10px', backgroundColor: '#F0F5F5' }}>
+            {/* Formulario de Contacto */}
+            <motion.section
+                className="contact"
+                style={{ padding: '40px 10px', backgroundColor: '#F0F5F5' }}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+                variants={fadeInUp}
+            >
                 <ContactForm />
-            </section>
-        </div>
+            </motion.section>
+        </div >
     );
 };
 

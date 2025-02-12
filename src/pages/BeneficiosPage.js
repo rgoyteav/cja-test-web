@@ -34,11 +34,23 @@ import logoHefestoHerreria from '../assets/hefesto-herreria.jpeg'
 import logoDonTomas from '../assets/kiosco-don-tomas.png'
 import logoLgHerreria from '../assets/lg-herreria.jpeg'
 import logoVove from '../assets/vove.jpeg'
+import { motion } from 'framer-motion';
+
+const fadeInUp = {
+  hidden: { opacity: 0, y: 50 },
+  visible: { opacity: 1, y: 0, transition: { duration: 2 } }
+};
 
 const BeneficiosPage = () => {
     return (
         <div>
-            <section className="beneficios-intro" style={{ textAlign: 'center', padding: '40px 0', backgroundColor: '#0c3553', color: '#FFF' }}>
+            <motion.div
+                className="beneficios-intro" 
+                style={{ textAlign: 'center', padding: '40px 0', backgroundColor: '#0c3553', color: '#FFF' }}
+                initial="hidden"
+                animate="visible"
+                variants={fadeInUp}
+            >
                 <h2 style={{ marginBottom: '20px', fontSize: '30px' }}>Programa de Beneficios</h2>
                 <p style={{ fontSize: '20px', marginBottom: '20px' }}>
                     Al ser socio del Centro Juventud Antoniana, accedés a promociones exclusivas en una amplia variedad de comercios adheridos.
@@ -49,9 +61,15 @@ const BeneficiosPage = () => {
                     email a <a href="mailto:institucional@juventudantoniana.com.ar" style={{ color: '#F0F5F5' }}>institucional@juventudantoniana.com.ar</a>,
                     y te contactaremos a la brevedad para contarte los beneficios que tenemos para vos y tu negocio.
                 </p>
-            </section>
+            </motion.div>
 
-            <section className="comercios-adheridos" style={{ padding: '40px 0', backgroundColor: '#F0F5F5' }}>
+            <motion.div
+                className="comercios-adheridos" 
+                style={{ padding: '40px 0', backgroundColor: '#F0F5F5' }}
+                initial="hidden"
+                animate="visible"
+                variants={fadeInUp}
+            > 
                 <h3 style={{ textAlign: 'center', color: '#0c3553', marginBottom: '30px' }}>Comercios Adheridos</h3>
                 <div className="comercios-list" style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap', gap: '30px' }}>
                     {/* Comercio 3 */}
@@ -525,7 +543,7 @@ const BeneficiosPage = () => {
                         </p>
                     </div>
                 </div>
-            </section>
+            </motion.div>
 
             <section className="como-acceder" style={{ padding: '40px 0', marginBottom: '80px', color: '#0c3553', textAlign: 'center' }}>
                 <h3 style={{ textAlign: 'center', marginBottom: '20px' }}>¿Cómo acceder a los beneficios?</h3>

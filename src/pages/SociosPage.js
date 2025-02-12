@@ -1,4 +1,10 @@
 import React from 'react';
+import { motion } from 'framer-motion';
+
+const fadeInUp = {
+  hidden: { opacity: 0, y: 50 },
+  visible: { opacity: 1, y: 0, transition: { duration: 2 } }
+};
 
 const SociosPage = () => {
   return (
