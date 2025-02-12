@@ -22,7 +22,7 @@ const Footer = () => {
         <a href="https://twitter.com/CJAOficial" target="_blank" rel="noopener noreferrer" style={{ color: '#F0F5F5', margin: '0 10px' }}>
           <i className="fab fa-twitter" style={{ fontSize: '24px' }}></i>
         </a>
-        <a href="https://twitter.com/CJAOficial" target="_blank" rel="noopener noreferrer" style={{ color: '#F0F5F5', margin: '0 10px' }}>
+        <a href="https://www.tiktok.com/@cja.oficial" target="_blank" rel="noopener noreferrer" style={{ color: '#F0F5F5', margin: '0 10px' }}>
           <i className="fab fa-tiktok" style={{ fontSize: '24px' }}></i>
         </a>
 
