@@ -27,13 +27,23 @@ import logoSuplementosNutricionales from '../assets/suplementos-nutricionales-sa
 import logoCristianCelulares from '../assets/cristian-celulares.jpeg';
 import logoMecanicaRicardoMartin from '../assets/ricardo-martin-mecanica-integral.png';
 import logoNegroCopa from '../assets/lo-del-negro-copa.png';
-import logoGuzmanRepuestos from '../assets/guzman-repuestos.jpeg'
-import logoStarCars from '../assets/star-cars.jpeg'
-import logoBateriasZarate from '../assets/baterias-zarate.jpeg'
-import logoHefestoHerreria from '../assets/hefesto-herreria.jpeg'
-import logoDonTomas from '../assets/kiosco-don-tomas.png'
-import logoLgHerreria from '../assets/lg-herreria.jpeg'
-import logoVove from '../assets/vove.jpeg'
+import logoGuzmanRepuestos from '../assets/guzman-repuestos.jpeg';
+import logoStarCars from '../assets/star-cars.jpeg';
+import logoBateriasZarate from '../assets/baterias-zarate.jpeg';
+import logoHefestoHerreria from '../assets/hefesto-herreria.jpeg';
+import logoDonTomas from '../assets/kiosco-don-tomas.png';
+import logoLgHerreria from '../assets/lg-herreria.jpeg';
+import logoVove from '../assets/vove.jpeg';
+import logoAlwaysRentACar from '../assets/always-rent-a-car.jpeg';
+import logoViaBana from '../assets/heladeria-via-bana.png';
+import logoMaxiPeluqueriaYBarberia from '../assets/maxi-peluqueria-barberia.png';
+import logoEdinor from '../assets/edinor.jpeg';
+import logoTeatroAdn from '../assets/teatro-adn.jpeg';
+import logoCabanasOhana from '../assets/cabanas-ohana.jpeg';
+import logoKoki from '../assets/koki.jpeg';
+import logoLitoGolosinas from '../assets/lito-golosinas.jpeg';
+import logoLocosPorLasGolosinas from '../assets/locos-por-las-golosinas.jpeg';
+import logoQueicos from '../assets/queicos.jpeg';
 import { motion } from 'framer-motion';
 
 const fadeInUp = {
@@ -540,6 +550,138 @@ const BeneficiosPage = () => {
                         <p style={{ color: '#333', fontSize: '16px' }}>
                             📍Vicente López 498
                             <br /> 💰15% de descuento abonando en efectivo.
+                        </p>
+                    </div>
+                    {/* Comercio 26 */}
+                    <div className="comercio" style={{ width: '300px', padding: '20px', border: '1px solid #ccc', borderRadius: '10px', backgroundColor: '#FFF' }}>
+                        <img
+                            src={logoAlwaysRentACar}
+                            alt="Always Rent A Car"
+                            style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
+                        />
+                        <h4 style={{ color: '#0c3553', marginTop: '15px' }}>ALWAYS RENT A CAR</h4>
+                        <p style={{ color: '#333', fontSize: '16px' }}>
+                            📍Caseros 1642
+                            <br/>  💰30% de descuento efectivo, transferencia, crédito y débito.
+                        </p>
+                    </div>
+                    {/* Comercio 26 */}
+                    <div className="comercio" style={{ width: '300px', padding: '20px', border: '1px solid #ccc', borderRadius: '10px', backgroundColor: '#FFF' }}>
+                        <img
+                            src={logoViaBana}
+                            alt="Heladería Via Vana"
+                            style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
+                        />
+                        <h4 style={{ color: '#0c3553', marginTop: '15px' }}>HELADERÍA VIA VANA</h4>
+                        <p style={{ color: '#333', fontSize: '16px' }}>
+                            📍Manzana X casa nro 11 - Barrio Santa Cecilia.
+                            <br/>  💰10% de descuento en efectivo.
+                        </p>
+                    </div>
+                    {/* Comercio 26 */}
+                    <div className="comercio" style={{ width: '300px', padding: '20px', border: '1px solid #ccc', borderRadius: '10px', backgroundColor: '#FFF' }}>
+                        <img
+                            src={logoMaxiPeluqueriaYBarberia}
+                            alt="MAXI Peluquería y Barbería"
+                            style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
+                        />
+                        <h4 style={{ color: '#0c3553', marginTop: '15px' }}>MAXI PELUQUERÍA Y BARBERÍA</h4>
+                        <p style={{ color: '#333', fontSize: '16px' }}>
+                            📍Armada Argentina 309 - Ciudad del Milagro.
+                            <br/>💰15% de descuento en efectivo o transferencia.
+                        </p>
+                    </div>
+                    {/* Comercio 26 */}
+                    <div className="comercio" style={{ width: '300px', padding: '20px', border: '1px solid #ccc', borderRadius: '10px', backgroundColor: '#FFF' }}>
+                        <img
+                            src={logoEdinor}
+                            alt="EDINOR"
+                            style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
+                        />
+                        <h4 style={{ color: '#0c3553', marginTop: '15px' }}>EDINOR</h4>
+                        <p style={{ color: '#333', fontSize: '16px' }}>
+                            📍Etapa 6 Manzana 11 casa 23 Barrio Parque Belgrano.
+                            <br/> 💰15% de descuento en artículos personalizados sublimados.
+                            <br/> 💲10% de descuento en servicio técnico de PC e impresoras.
+                        </p>
+                    </div>
+                    {/* Comercio 26 */}
+                    <div className="comercio" style={{ width: '300px', padding: '20px', border: '1px solid #ccc', borderRadius: '10px', backgroundColor: '#FFF' }}>
+                        <img
+                            src={logoTeatroAdn}
+                            alt="Teatro ADN"
+                            style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
+                        />
+                        <h4 style={{ color: '#0c3553', marginTop: '15px' }}>TEATRO ADN</h4>
+                        <p style={{ color: '#333', fontSize: '16px' }}>
+                            📍25 de mayo 102.
+                            <br/> 💰35% de descuento en producciones locales.
+                        </p>
+                    </div>
+                    {/* Comercio 26 */}
+                    <div className="comercio" style={{ width: '300px', padding: '20px', border: '1px solid #ccc', borderRadius: '10px', backgroundColor: '#FFF' }}>
+                        <img
+                            src={logoCabanasOhana}
+                            alt="Cabañas Ohana"
+                            style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
+                        />
+                        <h4 style={{ color: '#0c3553', marginTop: '15px' }}>CABAÑAS OHANA</h4>
+                        <p style={{ color: '#333', fontSize: '16px' }}>
+                            📍Campo Quijano, Salta.
+                            <br/> 📞3875342564
+                            <br/> 💰20% de descuento en efectivo o transferencia.
+                        </p>
+                    </div>
+                    {/* Comercio 26 */}
+                    <div className="comercio" style={{ width: '300px', padding: '20px', border: '1px solid #ccc', borderRadius: '10px', backgroundColor: '#FFF' }}>
+                        <img
+                            src={logoKoki}
+                            alt="KOKI 24 horas"
+                            style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
+                        />
+                        <h4 style={{ color: '#0c3553', marginTop: '15px' }}>KOKI 24 HORAS</h4>
+                        <p style={{ color: '#333', fontSize: '16px' }}>
+                            📍Jujuy 770.
+                            <br/> 💰10 % de descuento en efectivo.
+                        </p>
+                    </div>
+                    {/* Comercio 26 */}
+                    <div className="comercio" style={{ width: '300px', padding: '20px', border: '1px solid #ccc', borderRadius: '10px', backgroundColor: '#FFF' }}>
+                        <img
+                            src={logoLitoGolosinas}
+                            alt="Lito Golosinas"
+                            style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
+                        />
+                        <h4 style={{ color: '#0c3553', marginTop: '15px' }}>LITO GOLOSINAS</h4>
+                        <p style={{ color: '#333', fontSize: '16px' }}>
+                            📍Cortada de Israel 91 - Córdoba Capital.
+                            <br/> 💰10% de descuento en efectivo (excepto cigarrillos).
+                        </p>
+                    </div>
+                    {/* Comercio 26 */}
+                    <div className="comercio" style={{ width: '300px', padding: '20px', border: '1px solid #ccc', borderRadius: '10px', backgroundColor: '#FFF' }}>
+                        <img
+                            src={logoLocosPorLasGolosinas}
+                            alt="Locos por las Golosinas"
+                            style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
+                        />
+                        <h4 style={{ color: '#0c3553', marginTop: '15px' }}>LOCOS POR LAS GOLOSINAS</h4>
+                        <p style={{ color: '#333', fontSize: '16px' }}>
+                            📍Sarmiento 22 - Córdoba Capital.
+                            <br/> 💰10% de descuento en efectivo (excepto cigarrillos).
+                        </p>
+                    </div>
+                    {/* Comercio 26 */}
+                    <div className="comercio" style={{ width: '300px', padding: '20px', border: '1px solid #ccc', borderRadius: '10px', backgroundColor: '#FFF' }}>
+                        <img
+                            src={logoQueicos}
+                            alt="Queicos Juice Bar"
+                            style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
+                        />
+                        <h4 style={{ color: '#0c3553', marginTop: '15px' }}>QUEICOS JUICE BAR</h4>
+                        <p style={{ color: '#333', fontSize: '16px' }}>
+                            📍Belgrano 1078.
+                            <br/> 💰15 % de descuento en todos los productos y servicios en efectivo.
                         </p>
                     </div>
                 </div>
