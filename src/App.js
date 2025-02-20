@@ -15,6 +15,7 @@ import RedesSocialesPage from './pages/RedesSocialesPage';
 import BeneficiosPage from './pages/BeneficiosPage';
 import RequisitosSocios from './pages/RequisitosSocios.js';
 import TiposCuotas from './pages/TiposCuotasPage.js';
+import Moratoria from './pages/MoratoriaPage.js';
 import Referidos from './pages/ReferidosPage.js'
 import Abonos from './pages/AbonosPage.js'
 
@@ -36,6 +37,7 @@ function App() {
             <Route path="/beneficios" element={<BeneficiosPage />} />
             <Route path="/requisitos-asociarse" element={<RequisitosSocios />} />
             <Route path="/tipos-cuotas" element={<TiposCuotas />} />
+            <Route path="/moratoria" element={<Moratoria />} />
             <Route path="/programa-referidos" element={<Referidos />} />
             <Route path="/abonos" element={<Abonos />} />
           </Routes>
