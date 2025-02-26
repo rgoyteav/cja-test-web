@@ -1,0 +1,40 @@
+.businessSlider {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: #f0f5f5;
+    padding: 20px 0;
+  }
+  
+  .businessSlide-track {
+    display: flex;
+    animation: businessScroll linear infinite;
+    /* Width is set dynamically in React */
+  }
+  
+  .businessSlide {
+    width: 200px;
+    flex-shrink: 0;
+    padding: 0 5px;
+  }
+  
+  .businessSlide img {
+    width: 80%;
+    height: auto;
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .businessSlide img:hover {
+    transform: scale(1.05);
+  }
+  
+  @keyframes businessScroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%); /* Always moves exactly half the width */
+    }
+  }

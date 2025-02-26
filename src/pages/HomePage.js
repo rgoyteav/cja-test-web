@@ -5,8 +5,8 @@ import BannerSlider from '../components/BannerSlider';
 import { motion } from 'framer-motion';
 import fotoFrayCarousel from '../assets/pictures/fray/fray-2.jpg';
 import fotoFrayCarousel2 from '../assets/pictures/fray/fray-3.jpg';
-import fotoFrayCarousel3 from '../assets/pictures/familia/familia-5.jpg';
-
+import fotoFamilia from '../assets/pictures/familia/familia-5.jpg';
+import BannerComerciosSlider from "../components/BannerComerciosSlider";
 const fadeInUp = {
     hidden: { opacity: 0, y: 50 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.8 } }
@@ -46,7 +46,7 @@ const HomePage = () => {
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img className="d-block w-100" src={fotoFrayCarousel3} alt="Platea de la familia Antoniana"
+                        <img className="d-block w-100" src={fotoFamilia} alt="Platea de la familia Antoniana"
                             style={{ height: '500px', objectFit: 'cover' }} />
                         <Carousel.Caption style={{ backgroundColor: 'rgba(240, 245, 245, 0.8)', color: '#3C2713', padding: '20px' }}>
                             <h3>¡El santo no se explica, se siente!</h3>
@@ -87,6 +87,11 @@ const HomePage = () => {
                     onMouseLeave={(e) => e.target.style.backgroundColor = '#0c3553'}>
                     Programa de Beneficios
                 </a>
+                <br/>
+                <br/>
+            <motion.section>
+                <BannerComerciosSlider />   
+            </motion.section>    
             </motion.section>
 
             {/* Redes Sociales */}
@@ -161,7 +166,7 @@ const HomePage = () => {
                 </div>
             </motion.section>
 
-            <motion.section 
+            <motion.section
                 style={{ padding: '40px 0', textAlign: 'center', padding: '40px 0', backgroundColor: '#F0F5F5' }}
                 initial="hidden"
                 whileInView="visible"

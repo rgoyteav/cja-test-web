@@ -44,9 +44,9 @@ body {
   }
   .slider .slide {
     cursor: pointer;
-    width: 180px;
+    width: 250px;
     height: auto;
-    padding: 10px;
+    padding: 100px;
     margin: 20px;
     background-color: white;
     border-radius: 8px;
@@ -60,7 +60,7 @@ body {
   
   .slider .slide img {
     height: auto;
-    width: 160px;
+    width: 200px;
     filter: brightness(0) saturate(100%);
     opacity: 0.25;
   }

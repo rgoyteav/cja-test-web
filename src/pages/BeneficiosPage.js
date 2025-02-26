@@ -16,7 +16,6 @@ import logoElMisterPlays from '../assets/el-mister-plays.jpeg';
 import logoSEBeautique from '../assets/se-beautique.jpeg';
 import logoMarianoTorresTaller from '../assets/mariano-torres-taller.jpeg';
 import logoSigsas from '../assets/sigsas.png';
-import logoMrMagoo from '../assets/mr-magoo.png';
 import logoTiendaLaFortuna from '../assets/tienda-la-fortuna.jpeg';
 import logoBarberiaCastillo from '../assets/barberia-castillo.jpeg';
 import logoFerreteriaGay from '../assets/ferreteria-gay.jpeg';
@@ -44,6 +43,7 @@ import logoKoki from '../assets/koki.jpeg';
 import logoLitoGolosinas from '../assets/lito-golosinas.jpeg';
 import logoLocosPorLasGolosinas from '../assets/locos-por-las-golosinas.jpeg';
 import logoQueicos from '../assets/queicos.jpeg';
+import logoChiri from '../assets/lo-de-chiri.jpeg';
 import { motion } from 'framer-motion';
 
 const fadeInUp = {
@@ -682,6 +682,19 @@ const BeneficiosPage = () => {
                         <p style={{ color: '#333', fontSize: '16px' }}>
                             📍Belgrano 1078.
                             <br/> 💰15 % de descuento en todos los productos y servicios en efectivo.
+                        </p>
+                    </div>
+                    {/* Comercio 26 */}
+                    <div className="comercio" style={{ width: '300px', padding: '20px', border: '1px solid #ccc', borderRadius: '10px', backgroundColor: '#FFF' }}>
+                        <img
+                            src={logoChiri}
+                            alt="Lo de Chiri Empanadas"
+                            style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
+                        />
+                        <h4 style={{ color: '#0c3553', marginTop: '15px' }}>LO DE CHIRI EMPANADAS</h4>
+                        <p style={{ color: '#333', fontSize: '16px' }}>
+                            📍Ruta 51 k 3 1/2
+                            <br/> 💰10% de descuento en efectivo y transferencia.
                         </p>
                     </div>
                 </div>
