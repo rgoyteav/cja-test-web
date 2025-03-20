@@ -44,6 +44,12 @@ import logoLitoGolosinas from '../assets/lito-golosinas.jpeg';
 import logoLocosPorLasGolosinas from '../assets/locos-por-las-golosinas.jpeg';
 import logoQueicos from '../assets/queicos.jpeg';
 import logoChiri from '../assets/lo-de-chiri.jpeg';
+import logoAfrodita from '../assets/afrodita-makeup.jpeg';
+import logoMatiasDaher from '../assets/matias-daher.jpeg';
+import logoReservaPerfecta from '../assets/reserva-perfecta.jpeg';
+import logoHotelSelina from '../assets/hotel-selina.jpeg';
+import logoTroyCarRental from '../assets/troy-car-rental.jpeg';
+import logoTroyCoworking from '../assets/troy-coworking.jpeg';
 import { motion } from 'framer-motion';
 
 const fadeInUp = {
@@ -695,6 +701,84 @@ const BeneficiosPage = () => {
                         <p style={{ color: '#333', fontSize: '16px' }}>
                             📍Ruta 51 k 3 1/2
                             <br/> 💰10% de descuento en efectivo y transferencia.
+                        </p>
+                    </div>
+                    {/* Comercio 26 */}
+                    <div className="comercio" style={{ width: '300px', padding: '20px', border: '1px solid #ccc', borderRadius: '10px', backgroundColor: '#FFF' }}>
+                        <img
+                            src={logoAfrodita}
+                            alt="Afrodita MakeUp"
+                            style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
+                        />
+                        <h4 style={{ color: '#0c3553', marginTop: '15px' }}>AFRODITA MAKE UP</h4>
+                        <p style={{ color: '#333', fontSize: '16px' }}>
+                            📍Catamarca 284
+                            <br/> 💰15% de descuento en efectivo o transferencia.
+                        </p>
+                    </div>
+                    {/* Comercio 26 */}
+                    <div className="comercio" style={{ width: '300px', padding: '20px', border: '1px solid #ccc', borderRadius: '10px', backgroundColor: '#FFF' }}>
+                        <img
+                            src={logoMatiasDaher}
+                            alt="Matías Daher Productor Asesor de Seguros"
+                            style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
+                        />
+                        <h4 style={{ color: '#0c3553', marginTop: '15px' }}>MATÍAS DAHER PRODUCTOR ASESOR DE SEGUROS</h4>
+                        <p style={{ color: '#333', fontSize: '16px' }}>
+                            📞3874885725
+                            <br/> 💰15% de descuento (débito automático) en el seguro de tu auto con compañías líderes.
+                        </p>
+                    </div>
+                    {/* Comercio 26 */}
+                    <div className="comercio" style={{ width: '300px', padding: '20px', border: '1px solid #ccc', borderRadius: '10px', backgroundColor: '#FFF' }}>
+                        <img
+                            src={logoReservaPerfecta}
+                            alt="Reserva Perfecta"
+                            style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
+                        />
+                        <h4 style={{ color: '#0c3553', marginTop: '15px' }}>RESERVA PERFECTA</h4>
+                        <p style={{ color: '#333', fontSize: '16px' }}>
+                            📞3874122407
+                            <br/> 💰10% de descuento en efectivo o transferencia en alojamientos temporales en Salta capital y alrededores.
+                        </p>
+                    </div>
+                    {/* Comercio 26 */}
+                    <div className="comercio" style={{ width: '300px', padding: '20px', border: '1px solid #ccc', borderRadius: '10px', backgroundColor: '#FFF' }}>
+                        <img
+                            src={logoTroyCarRental}
+                            alt="Troy Car Rental"
+                            style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
+                        />
+                        <h4 style={{ color: '#0c3553', marginTop: '15px' }}>TROY CAR RENTAL</h4>
+                        <p style={{ color: '#333', fontSize: '16px' }}>
+                            📍España 307
+                            <br/> 💰10% descuento pago en efectivo.
+                        </p>
+                    </div>
+                    {/* Comercio 26 */}
+                    <div className="comercio" style={{ width: '300px', padding: '20px', border: '1px solid #ccc', borderRadius: '10px', backgroundColor: '#FFF' }}>
+                        <img
+                            src={logoTroyCoworking}
+                            alt="Troy Coworking"
+                            style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
+                        />
+                        <h4 style={{ color: '#0c3553', marginTop: '15px' }}>TROY COWORKING</h4>
+                        <p style={{ color: '#333', fontSize: '16px' }}>
+                            📍España 307
+                            <br/> 💰10% descuento pago en efectivo.
+                        </p>
+                    </div>
+                    {/* Comercio 26 */}
+                    <div className="comercio" style={{ width: '300px', padding: '20px', border: '1px solid #ccc', borderRadius: '10px', backgroundColor: '#FFF' }}>
+                        <img
+                            src={logoHotelSelina}
+                            alt="Hotel Selina"
+                            style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
+                        />
+                        <h4 style={{ color: '#0c3553', marginTop: '15px' }}>HOTEL SELINA</h4>
+                        <p style={{ color: '#333', fontSize: '16px' }}>
+                            📍Balcarce 460
+                            <br/> 💰10% descuento pago en efectivo.
                         </p>
                     </div>
                 </div>

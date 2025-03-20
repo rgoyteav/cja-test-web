@@ -44,6 +44,12 @@ import logoLitoGolosinas from '../assets/lito-golosinas.jpeg';
 import logoLocosPorLasGolosinas from '../assets/locos-por-las-golosinas.jpeg';
 import logoQueicos from '../assets/queicos.jpeg';
 import logoChiri from '../assets/lo-de-chiri.jpeg';
+import logoAfrodita from '../assets/afrodita-makeup.jpeg';
+import logoMatiasDaher from '../assets/matias-daher.jpeg';
+import logoReservaPerfecta from '../assets/reserva-perfecta.jpeg';
+import logoHotelSelina from '../assets/hotel-selina.jpeg';
+import logoTroyCarRental from '../assets/troy-car-rental.jpeg';
+import logoTroyCoworking from '../assets/troy-coworking.jpeg';
 
 const BannerComerciosSlider = () => {
     // List of businesses with their logos and links
@@ -91,7 +97,14 @@ const BannerComerciosSlider = () => {
         { imgSrc: logoLitoGolosinas, altText: "Lito Golosinas", link: "#" },
         { imgSrc: logoLocosPorLasGolosinas, altText: "Locos por las Golosinas", link: "#" },
         { imgSrc: logoQueicos, altText: "Queicos Juice Bar", link: "#" },
-        { imgSrc: logoChiri, altText: "Lo de Chiri Empanadas", link: "#" }
+        { imgSrc: logoChiri, altText: "Lo de Chiri Empanadas", link: "#" },
+        { imgSrc: logoAfrodita, altText: "Afrodita Makeup", link: "#" },
+        { imgSrc: logoMatiasDaher, altText: "Matías Daher Productor Asesor de Seguros", link: "#" },
+        { imgSrc: logoReservaPerfecta, altText: "Reserva Perfecta", link: "#" },
+        { imgSrc: logoHotelSelina, altText: "Hotel Selina", link: "#" },
+        { imgSrc: logoTroyCarRental, altText: "Troy Car Rental", link: "#" },
+        { imgSrc: logoTroyCoworking, altText: "Troy Coworking", link: "#" },
+
     ];
 
     // Duplicate the array to create a seamless loop effect
